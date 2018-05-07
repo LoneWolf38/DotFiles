@@ -27,6 +27,10 @@ set $base0D #97bbf7
 set $base0E #c0b7f9
 set $base0F #fcc09e
 
+
+set $shutdown sudo shutdown -h now
+set $reboot sudo reboot
+set $exit i3-msg exit
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font pango:System San Francisco Display Regular 10
@@ -159,7 +163,12 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+
+bindsym $mod+Shift+e exec /home/drake/.config/i3/prompt.sh "You sure?" "$exit"
+
+
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -186,6 +195,9 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+bindsym $mod+Shift+x exec /home/drake/.config/i3/prompt.sh "You sure?" "$shutdown"
+
+exec --no-startup-id dunst
 
 # Widow Colours
 #                         border  background text    indicator
@@ -275,14 +287,14 @@ for_window [class=^.*] border none
 
 
 
-bindsym $mod+Shift+p exec terminator -e scrot
+bindsym $mod+Shift+p exec terminator -e scrot 
 bindsym $mod+m exec terminator -e cmus
 bindsym $mod+e exec terminator -e ranger
 bindsym $mod+u exec urxvt
 bindsym $mod+s exec LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8 subl3
 #client.background	$background
 
-#client.focused         	$foreground	$background	$foreground	$foreground		$foreground
+#client.focused         	$foreground	$background	$foreground	$foreground		$foregrounds
 #client.unfocused       	$foreground	$background	$foreground	$color8		    $color8
 #client.focused_inactive	$foreground	$background	$foreground	$color8		    $color8
 #client.urgent		        $foreground	$background	$foreground	$color8		    $color8

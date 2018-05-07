@@ -1,0 +1,80 @@
+sw_volume: 1
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: stop
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Music/Alan Walker - Faded.mp3
+1:Music/The Best of Me (Original Motion Picture Soundtrack)/01 I Did With You.m4a
+2:Music/The Best of Me (Original Motion Picture Soundtrack)/09 Falling For You.m4a
+3:Music/The Best of Me (Original Motion Picture Soundtrack)/02 Dream Girl.m4a
+4:Music/The Best of Me (Original Motion Picture Soundtrack)/03 Hold On.m4a
+5:Music/The Best of Me (Original Motion Picture Soundtrack)/04 In Love Again.m4a
+6:Music/The Best of Me (Original Motion Picture Soundtrack)/05 The Way Things Go.m4a
+7:Music/The Best of Me (Original Motion Picture Soundtrack)/06 Borrowed Time.m4a
+8:Music/The Best of Me (Original Motion Picture Soundtrack)/08 Love Is a Liar.m4a
+9:Music/The Best of Me (Original Motion Picture Soundtrack)/10 Rain From Heaven.m4a
+10:Music/The Best of Me (Original Motion Picture Soundtrack)/11 All the Way.m4a
+11:Music/The Best of Me (Original Motion Picture Soundtrack)/12 Unchanged.m4a
+12:Music/The Best of Me (Original Motion Picture Soundtrack)/13 Sweet Jane.m4a
+13:Music/The Best of Me (Original Motion Picture Soundtrack)/14 Crossroads.m4a
+14:Music/The Best of Me (Original Motion Picture Soundtrack)/15 A Rose and a Kiss.m4a
+15:Music/Songszz/Gulcharrey (Bewakoofiyaan) -320Kbps [DJMaza.Info].mp3
+16:Music/Songszz/Until It's Gone.mp3
+17:Music/Muzic/01 Shaitaaniyan - Badmashiyaan (Ankit Tiwari) - 190Kbps.mp3
+18:Music/Musicxx/14892-time-in-a-bottle-jim-croce--1411568434.mp3
+19:Aa Jao Meri Tamanna-(HindiMp3.Mobi).mp3
+20:Bande Hain Hum Uske - Shivam.mp3
+21:Music/03 - Adam Levine - No One Else Like You.mp3
+22:Music/06 - Adam Levine - A Higher Place.mp3
+23:Music/TVF's_Cute_Vol1.mp3
+24:Music/Rachel Platten - Fight Song.mp3
+25:Music/Songszz/12.Brown Rang 720p x264 AAc--[CooL GuY] {{a2zRG}}.mkv
+26:Music/Songszz/13. Believe.mp3
+27:Music/Songszz/Harry Is Not Bhramchari (Shaadi Ke Side Effects) - 190Kbps [DJMaza.Info].mp3
+28:Music/Songszz/Ice Cream (The Xpose) -320Kbps [DJMaza.Info].mp3
+29:Music/Muzic/Selfie Le Le Re (Bajrangi Bhaijaan) -320Kbps  DJMaza.Info .mp3
+30:Music/Muzic/06 Lets Celebrate - Tevar  PagalWorld.com  190kbps.mp3
+31:Music/Muzic/01 Dj (Ali Zafar) Hey Bro - 190Kbps.mp3
+32:Music/Musicxx/Neele Neele Amber Pe-Kishore Kumar--Raag.Me--.mp3
+33:Music/Musicxx/Muskurane (Citylights) - Arijit Singh (DjPunjab.Com).mp3
+34:Music/Musicxx/Gulabi Aankhein Jo Teri Dekhi (Unplugged).mp3
+35:Music/Musicxx/Dheere Dheere Se Meri-Kumar Sanu--Raag.Me--.mp3
+36:Music/Musicxx/Dil_Lagaana(bossmobi.com).mp3
+37:Music/Music/01 Kar Gayi Chull - Badshah 320Kbps.mp3
+38:Music/Music/01 Dance Basanti (Ungli) [SongsMp3.Com] (SongsMp3.Com).mp3
+39:Music/Music/01 2 Chainz Ft. Wiz Khalifa - We Own It (Fast  Furious) (www.SongsLover.pk).mp3
+40:Music/Music/01 2 Chainz Ft. Wiz Khalifa - We Own It (Fast  Furious) (www.SongsLover.pk).mp3
+41:Music/Music/01 2 Chainz Ft. Wiz Khalifa - We Own It (Fast  Furious) (www.SongsLover.pk).mp3
+42:Music/Music/01 2 Chainz Ft. Wiz Khalifa - We Own It (Fast  Furious) (www.SongsLover.pk).mp3
+43:Music/Music/01 2 Chainz Ft. Wiz Khalifa - We Own It (Fast  Furious) (www.SongsLover.pk).mp3
+44:Music/Music/01 2 Chainz Ft. Wiz Khalifa - We Own It (Fast  Furious) (www.SongsLover.pk).mp3
+45:Music/Music/01 2 Chainz Ft. Wiz Khalifa - We Own It (Fast  Furious) (www.SongsLover.pk).mp3
+46:Music/Music/01 - Creature - Sawan Aaya Hai o .mp3
+47:Music/Music/01 - Creature - Sawan Aaya Hai o .mp3
+48:Music/Music/01 Yahin Hoon Main (SongsMp3.Com).mp3
+49:Music/Music/01 Yahin Hoon Main (SongsMp3.Com).mp3
+50:Music/Music/01 Yahin Hoon Main (SongsMp3.Com).mp3
+51:Music/Music/02_-_Pehli_Mohabbat_(Darshan_Raval)_Full_Song(wapking.cc).mp3
+52:Music/Tunes/A Narnia Lullaby.mp3
+53:Aa Jao Meri Tamanna-(HindiMp3.Mobi).mp3
+54:Music/03 - Adam Levine - No One Else Like You.mp3
+55:Music/03 - Adam Levine - No One Else Like You.mp3
+56:Music/06 - Adam Levine - A Higher Place.mp3
+57:Music/Music/V/Lost Stars.mp3
+58:Music/03 - Adam Levine - No One Else Like You.mp3
+59:Music/06 - Adam Levine - A Higher Place.mp3
+60:Music/Music/V/Lost Stars.mp3
+61:Music/03 - Adam Levine - No One Else Like You.mp3
+62:Music/03 - Adam Levine - No One Else Like You.mp3
+63:Music/Music/V/Lost Stars.mp3
+64:Music/Music/V/Lost Stars.mp3
+65:Music/Music/V/Lost Stars.mp3
+66:Music/♪ Sia Ft Sean Paul - Cheap Thrills.mp3
+playlist_end

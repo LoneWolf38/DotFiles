@@ -8,6 +8,10 @@ This repo is actually intended for my personal backup, but everyone are welcome 
 ![Screeshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/i3_dunst.png)
 
 
+
+
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/conky.png)
+
 ## Programs in the pictures
 
 1. neofetch
@@ -18,6 +22,6 @@ This repo is actually intended for my personal backup, but everyone are welcome 
 6. nm-applet
 7. dunst
 8. pac-tray
+9. Conky
 
 
-![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/conky.png)

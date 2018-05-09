@@ -18,3 +18,6 @@ This repo is actually intended for my personal backup, but everyone are welcome 
 6. nm-applet
 7. dunst
 8. pac-tray
+
+
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/conky.png)

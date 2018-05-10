@@ -6,7 +6,7 @@ This repo is actually intended for my personal backup, but everyone are welcome 
 
 
 
-##### My home workspace with polybar
+###### My home workspace with polybar
 
 ![Screeshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/vis_neo_home.png)
 

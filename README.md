@@ -5,42 +5,46 @@ A collection of configs to be placed in the users home directory usually prefixe
 This repo is actually intended for my personal backup, but everyone are welcome to use these resources. 
 
 
+
+##### My home workspace with polybar
+
 ![Screeshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/vis_neo_home.png)
 
-
-
+###### Conky-----My wiget maanger
 
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/conky.png)
 
 
+###### Cmus----- My goto music player
+ 
 
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/music.png)
 
 
 
+###### My own Website in QuteBrowser
+
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/own.png)
+
+
+###### Firefox  
 
 
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/firefox.png)
 
 
+###### i3-lock----- My Lockscreen Application
+
+
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/lock.png)
 
+
+
+###### Rofi---My Application Launcher
 
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/rofi.png)
 
 
 
-## Programs in the pictures
-
-1. neofetch
-2. terminator
-3. cmus
-4. Polybar
-5. i3-gaps
-6. nm-applet
-7. dunst
-8. pac-tray
-9. Conky
 
 

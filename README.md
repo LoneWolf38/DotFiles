@@ -12,6 +12,20 @@ This repo is actually intended for my personal backup, but everyone are welcome 
 
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/conky.png)
 
+
+
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/music.png)
+
+
+
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/own.png)
+
+
+
+
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/firefox.png)
+
+
 ## Programs in the pictures
 
 1. neofetch

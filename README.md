@@ -5,7 +5,7 @@ A collection of configs to be placed in the users home directory usually prefixe
 This repo is actually intended for my personal backup, but everyone are welcome to use these resources. 
 
 
-![Screeshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/i3_dunst.png)
+![Screeshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/vis_neo_home.png)
 
 
 
@@ -21,9 +21,14 @@ This repo is actually intended for my personal backup, but everyone are welcome 
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/own.png)
 
 
-
-
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/firefox.png)
+
+
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/lock.png)
+
+
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/rofi.png)
+
 
 
 ## Programs in the pictures

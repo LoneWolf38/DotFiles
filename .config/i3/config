@@ -88,7 +88,7 @@ mode "resize" {
 # Startup Scripts
 
 exec --no-startup-id dunst
-exec_always feh --bg-scale /home/drake/Pictures/wallhaven-575325.jpg
+exec_always feh --bg-scale /home/drake/Pictures/wall.png
 exec --no-startup-id exec synclient TouchpadOff=0
 exec --no-startup-id /home/drake/Projects/betterlockscreen/lock.sh -u /home/drake/Pictures/wallhaven-575325.jpg
 exec terminator
@@ -98,7 +98,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always compton -f --config $HOME/.config/compton.conf
 exec --no-startup-id nm-applet
 exec --no-startup-id pamac-tray
-exec_always conky
+exec /home/drake/.config/i3/conky_start.sh
 
 # For i3-gaps
 gaps inner 8
@@ -190,6 +190,8 @@ bindsym $mod+space focus mode_toggle
 
 bindsym $mod+Shift+c exec /home/drake/.config/i3/prompt.sh "Are you sure?" "$reboot"
 
+bindsym $mod+g exec terminator -e glances
+
 bindsym $mod+Shift+r restart
 bindsym $mod+r mode "resize"
 
@@ -197,7 +199,7 @@ bindsym $mod+Shift+e exec /home/drake/.config/i3/prompt.sh "You sure?" "$exit"
 
 bindsym $mod+Shift+x exec /home/drake/.config/i3/prompt.sh "You sure?" "$shutdown"
 
-bindsym $mod+w exec qutebrowser
+bindsym $mod+w exec firefox
 
 bindsym $mod+Print exec --no-startup-id screenkey
  
@@ -240,17 +242,22 @@ bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace10
 
+
+#XF86 Keys
+bindsym XF86AudioNext exec $next
+bindsym XF86AudioPlay exec $pause
+bindsym XF86AudioPrev exec $prev
+
 #assign [class = "urxvt"] $workspace3
 assign [class = "Thunar"] $workspace5
 assign [class = "Firefox"] $workspace2
-assign [class = "mpv"] $workspace6
 
 
 for_window [class="qutebrowser"] floating enable border none fullscreen enable
 for_window [title="File Transfer*"] floating enable
 for_window [class="Thunar"] border none
 for_window [class=^.*] border pixel 3
-assign [title="system_conky"] $workspace4
+for_window [class="mpv"] floating enable
 
 for_window [instance = "termite"] floating enable
 for_window [instance = "termite"] resize set 625 400

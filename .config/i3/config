@@ -267,3 +267,7 @@ for_window [instance = "termite"] border pixel 5
 exec_always --no-startup-id termite
 bindsym $mod+u    [instance = "termite"] scratchpad show; [instance = "termite"]  move position center
 
+
+#Move cmus to scratchpad
+bindsym Ctrl+u move scratchpad
+bindsym $mod+Shift+u [class = "Terminator"] scratchpad show 

@@ -88,17 +88,18 @@ mode "resize" {
 # Startup Scripts
 
 exec --no-startup-id dunst
-exec_always feh --bg-scale /home/drake/Pictures/wall.png
+# EDIT IT
+exec_always feh --bg-scale $HOME/DotFiles/Background/lockscreen.png
 exec --no-startup-id exec synclient TouchpadOff=0
-exec --no-startup-id /home/drake/Projects/betterlockscreen/lock.sh -u /home/drake/Pictures/wallhaven-575325.jpg
+exec --no-startup-id $HOME/DotFiles/lock.sh -u $HOME/DotFiles/Background/Wallpaper.jpg
 exec terminator
 exec thunar
 #exec_always LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8 subl3
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always compton -f --config $HOME/.config/compton.conf
+exec_always --no-startup-id $HOME/DotFiles/.config/polybar/launch.sh
+exec_always compton -f --config $HOME/DotFiles/.config/compton.conf
 exec --no-startup-id nm-applet
 exec --no-startup-id pamac-tray
-exec /home/drake/.config/i3/conky_start.sh
+exec $HOME/DotFiles/.config/i3/conky_start.sh
 
 # For i3-gaps
 gaps inner 8
@@ -151,9 +152,9 @@ font pango:System San Francisco Display Regular 10
 bindsym $mod+Return exec terminator
 
 bindsym $mod+Shift+q kill
-bindsym $mod+q exec /home/drake/Projects/betterlockscreen/lock.sh --lock dimblur
+bindsym $mod+q exec $HOME/DotFiles/lock.sh --lock dimblur
 
-bindsym $mod+d exec rofi -show run -config /home/drake/rofi.conf
+bindsym $mod+d exec rofi -show run -config $HOME/DotFiles/rofi.conf
 
 bindsym $mod+j focus left
 bindsym $mod+Shift+j move left
@@ -188,16 +189,16 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
-bindsym $mod+Shift+c exec /home/drake/.config/i3/prompt.sh "Are you sure?" "$reboot"
+bindsym $mod+Shift+c exec $HOME/DotFiles/.config/i3/prompt.sh "Are you sure?" "$reboot"
 
 bindsym $mod+g exec terminator -e glances
 
 bindsym $mod+Shift+r restart
 bindsym $mod+r mode "resize"
 
-bindsym $mod+Shift+e exec /home/drake/.config/i3/prompt.sh "You sure?" "$exit"
+bindsym $mod+Shift+e exec $HOME/DotFiles/.config/i3/prompt.sh "You sure?" "$exit"
 
-bindsym $mod+Shift+x exec /home/drake/.config/i3/prompt.sh "You sure?" "$shutdown"
+bindsym $mod+Shift+x exec $HOME/DotFiles/.config/i3/prompt.sh "You sure?" "$shutdown"
 
 bindsym $mod+w exec firefox
 

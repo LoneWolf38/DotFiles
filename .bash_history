@@ -2516,3 +2516,232 @@ dot
 ll
 vim .bashrc 
 clear
+less .bashrc
+clda
+set
+man set
+locale
+exit
+exit
+locale
+exit
+exit
+ll /proc
+ls /proc/1297/
+l /proc/1297/
+ll /proc/1297/
+top
+/dev
+ll | grep ^s
+man dd
+vim alcomnds 
+sudo pacman -S tty-clock
+sudo pacman -S powertop
+man powertop
+powertop
+sudo powertop
+glances
+less -S .bashrc
+jobs
+fg
+less
+cll
+glances
+less .bashrc
+clda
+set
+man set
+locale
+tmux
+man tmux
+man xclip
+cler
+cl
+man script
+man typescript
+update
+less alcomnds | awk { print $2 }
+less alcomnds | awk '{ print $2 }'
+less alcomnds 
+Projects/
+cd voidrice/
+cd .config/i3/
+cd Documents/
+cd 
+cd Dotfiles/
+cd DotFiles/
+cp ~/.config/i3/config .
+git commit -m "Xf86 audio keys added"
+vim config 
+cp ~/.config/i3/config config 
+git commit -m "xf86 audio keys added"
+ssh -i jarjarbinks.pem ubuntu@13.127.229.7
+git commit -m "xf86 audio keys added"
+ssh -i jarjarbinks.pem ubuntu@13.127.229.7
+ping google.con
+man ln
+less .vimrc
+which yum
+which yum > /dev/null
+which apt > /dev/null
+which apt-get > /dev/null
+man ls
+ll -d
+l
+ls -d
+cleaer
+ls -d *
+scripts/
+mkdir config-manager
+touch cm
+chmod 777 cm
+~/.vim/bash-support/templates/
+vim Templates 
+cv
+cd .vim
+cd ~/.vim
+cd autoload/
+cd bundle/
+cd ..
+colors
+..
+cd vim-support/
+vim templates/
+vim install
+vim install 
+v cm 
+vim install
+vim install 
+v cm 
+[ -d .dotfiles ]
+if [ -d .dotfiles ]; then echo "Hello world" fi
+if [ [ -d .dotfiles ] -eq 0 ]; then echo "Hello world"; fi
+if [ -d .dotfiles ]; then echo "Hello world"; else echo "He";  fi
+if [ -d .dotfiles ]; thenecho "Updating the configs... " else  echo "ada"fi; 
+if [ -d .dotfiles ]; thenecho "Updating the configs... " else  echo "ada" fi; 
+if [ -d .dotfiles ]; thenecho "Updating the configs... " else  echo "ada"; fi 
+if [ -d .dotfiles ]; thenecho "Updating the configs... " else  echo "ada" fi 
+if [ -d .dotfiles ]; then echo "Hello world"; else; echo "He";  fi
+if [[ -d .dotfiles ] -eq 0 ]; then echo "Hello world"; fi
+if [ -d .dotfiles ]; then echo "Hello world"; fi
+rmdir .dotfiles/
+scripts
+config-manager/
+nm
+ping google.com
+ckear
+touch todo
+vim todo
+vim ~/.gitconfig 
+nf
+yt
+cp ~/.gitconfig dot
+;;
+cp ~/.gitconfig dot/
+clea
+cp ~/.gitconfig ~/Dotfiles/DotFiles/
+rm dot
+. ~/.bashrc
+vim .bashrc 
+ln -s ~/.bash_history ./.bash_history a
+ln -s ~/.bash_history ./.bash_history 
+vim .bash_history 
+git commit -m "New update"
+git commit -m "New cleaning up"
+rm .bash_history 
+ln ~/.bash_history ./.bash_history 
+git commit -m "Removed the linked file"
+ls -ltra
+ls -lta
+ci
+home
+cd scripts/
+touch backup
+chmod +x backup 
+vim backup 
+./backup 
+ad
+cbr
+git status > /dev/null
+echo $?
+vim ~/scripts/backup 
+~/scripts/backup \
+~/scripts/backup 
+vim lock.sh 
+cd config-manager/
+rm install 
+vim todo 
+cd i3/
+dor
+rm .vimrc 
+ln ~/.vimrc .vimrc
+rm .xinitrc 
+ln ~/.xinitrc .xinitrc
+rm rofi.conf 
+ln ~/rofi.conf rofi.conf
+rm .bash_logout 
+ln ~/.bash_logout .bash_logout
+rm .bash_profile 
+cd .config/
+cd
+dot
+ln ~/.bash_profile .bash_profile
+git statu
+git status
+git commit -m "Renewed"
+git push
+git add -A
+git commit -m "Readme updated"
+gitup
+c
+cd ~/scripts/
+conf.py 
+config-manager/ 
+./cm
+./cm install
+./cm add
+./cm 
+vim cm 
+./cm update
+./cm -u
+./cm -i
+./cm -a
+clear
+ll
+vim cm
+vim todo 
+./cm -a
+ll
+vim cm
+vim todo 
+nm
+ping google.com
+clear
+exit
+./cm -a
+vim todo 
+nm
+exit
+ping google.com
+scripts
+config-manager/
+ll
+clear
+vim cm
+pacman -Q 
+pacman -Q > wc -l 
+pacman -Q | wc -l 
+clear
+nm
+ping google.com
+clear
+ping google.com
+cmus
+clear
+less todo 
+man i3
+clear
+git clone https://github.com/LoneWolf38/DotFiles.git DotFiles
+clear
+ci
+clear

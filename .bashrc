@@ -18,7 +18,6 @@ alias v="vim"
 alias ka="killall"
 alias sv="sudo vim"
 alias lsa='ls -hN --color=auto --group-directories-first'
-alias g="git"
 alias gitup="git push origin master"
 alias mkdir="mkdir -pv"
 alias ll="ls -al"

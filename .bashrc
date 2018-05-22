@@ -1,14 +1,8 @@
-#
-# ~/.bashrc
-#
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 stty -ixon
-
-#alias ls='ls --color=auto'
-#PS1='[\u@\h \W]\$ '
+export LANG=en_US.UTF-8
 export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
 
 shopt -s autocd
@@ -23,8 +17,7 @@ alias calendar="calcurse"
 alias v="vim"
 alias ka="killall"
 alias sv="sudo vim"
-alias r="ranger"
-alias ls='ls -hN --color=auto --group-directories-first'
+alias lsa='ls -hN --color=auto --group-directories-first'
 alias g="git"
 alias gitup="git push origin master"
 alias mkdir="mkdir -pv"
@@ -50,7 +43,7 @@ alias cf="cd ~/.config && ls -a"
 alias cbr="vim ~/.bashrc"
 alias cv="vim ~/.vimrc"
 alias ci="vim ~/.config/i3/config"
-
+alias dot="cd ~/Dotfiles/DotFiles/"
 
 
 

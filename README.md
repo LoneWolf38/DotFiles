@@ -1,8 +1,7 @@
 ![dotfiles](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/Screenshots/dotfiles-logo.png)
 
 ## Introduction
-A collection of configs to be placed in the users home directory usually prefixed with a period, hence the name dotfiles.
-This repo is actually intended for my personal backup, but everyone are welcome to use these resources. 
+A collection of my configs for backing up or for a new fresh linux installation. Anyone can download the configs and just make the system similar to my system
 
 
 

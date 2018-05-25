@@ -3486,3 +3486,7 @@ cd pkgs/
 ll
 cd
 clear
+cbr
+reload
+dotup
+dotup "Bashrc updated"

@@ -3490,3 +3490,380 @@ cbr
 reload
 dotup
 dotup "Bashrc updated"
+cd ..
+clea
+ipconfig
+ifconfig
+ifconfig
+killall conky
+top
+neofetch
+screenfetch
+vim
+yaourt pb-for-desktop
+sudo pacman -S pushbullet
+cd .config/
+cd i3
+;;
+[ -e .bash_history ] 
+echo $?
+if [ -e .bash_history ]; then echo "Hello"; fi
+cd
+ll | grep DotFiles
+git clone https://github.com/LoneWolf38/DotFiles.git ~/DotFiles
+sudo nethogs
+cmus
+killall conky
+top
+neofetch
+screenfetch
+vim
+yaourt pb-for-desktop
+sudo pacman -S pushbullet
+cd .config/
+cd i3
+;;
+[ -e .bash_history ] 
+echo $?
+if [ -e .bash_history ]; then echo "Hello"; fi
+ll | grep DotFiles
+git clone https://github.com/LoneWolf38/DotFiles.git ~/DotFiles
+sudo nethogs
+cmus
+scripts/KonfigManager/
+l
+vim install.sh 
+vim ~/.bash_profile 
+vim ~/.bash_logout
+man reload
+extract
+vim ~/.bashrc
+dotup "aliases update"
+clea
+vim paclist 
+pacman -Qq > paclist
+dotup paclist update
+~/scripts/KonfigManager/
+cd pkgs/
+cd
+dotup "Bashrc updated"
+dot
+less .xinitrc 
+ll
+killall wine
+htop
+dotup
+dotup "new files added"
+man toilet
+sudo pacman -S toilet
+yaourt toilet
+yaourt jave
+pinstall figlet-fonts
+toilet list
+toilet -F list
+toilet -F metal list
+toilet -F rainbow list
+toilet -F rainbow "WELCOME"
+pinstall banner
+banner HELLO
+pinstall cmatrix
+cmatrix
+pinstall xcowsay
+yinstall xcowsay
+pinstall espeak
+espeak "HELLO DEBABRATA"
+espeak "HELLO SIR"
+pinstall rig
+yinstall rig
+rig
+yinstall xeyes
+pinstall xeyes
+xeyes
+xcowsay hello
+man xcowsay
+c
+toilet -F rainbow -f svg "WELCOME"
+toilet -F rainbow --export svg "WELCOME" > text
+vim text
+toilet -F rainbow --export svg "WELCOME" > text.svg
+toilet -F rainbow --export svg "WELCOME" > text.svg | feh
+toilet -F rainbow --export svg "WELCOME" > text.svg | feh text.svg 
+toilet -F rainbow --export svg "WELCOME" > text.svg; feh text.svg 
+linuxlogo
+pinstall linuxlogo
+yinstall linuxlogo
+pinstall boxes
+yinstall boxes
+rm text.svg 
+toilet -F rainbow --export svg "WELCOME" > text.svg; display text.svg 
+man feh
+toilet -F rainbow --export svg "welcome" | feh --magick-timeout 1 
+welcome
+reload
+cbr
+tint2
+ci
+clear
+ll | grep DotFiles
+git clone https://github.com/LoneWolf38/DotFiles.git ~/DotFiles
+sudo nethogs
+cmus
+nm
+ping google.com
+scripts/KonfigManager/
+ll
+git status
+git add -A
+git commit -m "added ifs"
+gitup
+vim bin/km 
+clear
+ifconfig
+ifconfig
+killall conky
+top
+htop
+neofetch
+screenfetch
+vim
+yaourt pb-for-desktop
+sudo pacman -S pushbullet
+cd .config/
+cd i3
+;;
+[ -e .bash_history ] 
+echo $?
+if [ -e .bash_history ]; then echo "Hello"; fi
+cd
+ll | grep DotFiles
+git clone https://github.com/LoneWolf38/DotFiles.git ~/DotFiles
+cmus
+sudo nethogs
+dor
+dot
+cd .config/i3/
+ll
+sudo pacman -S figlet
+figlet "Hello"
+sudo pacman -S jave
+toilet hello
+cbr
+yinstall figlet-fonts
+figlet -f banner "WELCOME"
+figlet -f bubble "WELCOME"
+figlet -f term "WELCOME"
+figlet -cf term "WELCOME"
+figlet -clf term "WELCOME"
+figlet -lf term "WELCOME"
+figlet -lrf term "WELCOME"
+man figlet
+toilet
+toilet -F list
+toilet -Fl rainbow "WELCOME
+"
+toilet -Fl rainbow "WELCOME"
+man toiler
+man toilet
+toilet -F rainbow "WELCOME" | figlet -l
+reload
+welcome
+clear
+figlet -f list
+toilet -f list
+toilet -f mono12 Hello
+toilet -F list
+toilet -Fl rainbow "WELCOME
+"
+toilet -Fl rainbow "WELCOME"
+man toiler
+man toilet
+toilet -F rainbow "WELCOME" | figlet -l
+figlet -f list
+toilet -f list
+toilet -f mono12 Hello
+cci
+sudo rm -f /var/lib/pacman/db.lck 
+pinstall espeak-gui
+yinstall espeak-gui
+man espeak
+espeak "HEllo"
+espeak "Hello"
+espeak -s 125 -v en+croak 'Listen to my lovely voice as I try not to cry'
+espeak -s 125 -v en+f5 'Hey, handsome. Did you just spill soda on my designer bag?'
+espeak -v en+f5 'Hey, handsome. Did you just spill soda on my designer bag?'
+espeak -s 125 -v en+m3 'Oh! I thought that was a trash bag.'
+espeak -s 125 -v en+whisperf 'Please be quiet in the sanitarium'
+fortune | espeak -s 125 -v en+klatt3
+clear
+cbr
+reload
+welcome
+cbr
+reload
+welcome
+toilet -f mono12 Hello
+reload
+welcome
+man termite
+quit
+exit
+man termite
+quit
+tint2
+clear
+exit
+exit
+man termintor
+man terminator
+termite
+clear
+reload
+urxvt
+welcome
+quit
+exit
+quit
+exit
+quit
+ll
+vim .Xdefaults 
+urxvt
+clear
+exit
+welcome
+welcome
+xprop
+clear
+welcome
+welcome
+welcome
+welcome
+termite
+reload
+urxvt
+man urxvt
+urxvt -g 1200x80
+urxvt -g 100x80
+urxvt -geometry 100x80
+clear
+tmux
+exit
+welcome
+ci
+tint2
+cleear
+cl
+c
+update
+clear
+xprop
+exit
+man terminator
+clear
+termintor -t hello
+terminator -t hello
+terminator -T hello
+espeak "Hello"
+espeak -s 125 -v en+croak 'Listen to my lovely voice as I try not to cry'
+espeak -s 125 -v en+f5 'Hey, handsome. Did you just spill soda on my designer bag?'
+espeak -v en+f5 'Hey, handsome. Did you just spill soda on my designer bag?'
+espeak -s 125 -v en+m3 'Oh! I thought that was a trash bag.'
+espeak -s 125 -v en+whisperf 'Please be quiet in the sanitarium'
+fortune | espeak -s 125 -v en+klatt3
+cbr
+reload
+welcome
+cbr
+reload
+welcome
+toilet -f mono12 Hello
+reload
+welcome
+killall tint2
+dot
+ll
+ci
+killall urxvt
+clear
+welcome
+welcome
+xprop
+tmux -c welcome
+man tmux
+clear
+terminator -T "Hllo"
+clear
+ci
+ci
+ci
+tint2
+cmus
+clear
+exit
+welcome
+exit
+clear
+reload
+welcome
+welcome
+welcome
+clea
+clear
+exit
+espeak -s 125 -v en+f5 'Hey, handsome. Did you just spill soda on my designer bag?'
+espeak -v en+f5 'Hey, handsome. Did you just spill soda on my designer bag?'
+espeak -s 125 -v en+m3 'Oh! I thought that was a trash bag.'
+espeak -s 125 -v en+whisperf 'Please be quiet in the sanitarium'
+fortune | espeak -s 125 -v en+klatt3
+toilet -f mono12 Hello
+killall tint2
+dot
+ll
+killall urxvt
+xprop
+tmux -c welcome
+man tmux
+terminator -T "Hllo"
+tint2
+cmus
+exit
+welcome
+termite -e welcome
+terminator -e welcome
+killall termite
+clar
+clear
+ci
+cbr
+reload
+welcome
+clear
+termite
+clear
+ci
+terminator -e welcome
+ci
+clear
+ll
+killall urxvt
+xprop
+tmux -c welcome
+man tmux
+terminator -T "Hllo"
+tint2
+cmus
+exit
+termite -e welcome
+terminator -e welcome
+killall termite
+clar
+termite
+terminator -e welcome
+ci
+man toiler
+man toilet
+cbr
+reload
+welcome
+welcome r
+clear

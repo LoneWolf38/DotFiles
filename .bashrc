@@ -1,6 +1,15 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+shopt -s cdspell  
+shopt -s checkwinsize 
+shopt -s histappend
+shopt -s cmdhist  
+shopt -s expand_aliases
+shopt -s extglob 
+
+
+set -o vi
 stty -ixon
 export LANG=en_US.UTF-8
 export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
@@ -13,10 +22,6 @@ alias email="mutt"
 alias files="ranger"
 alias calendar="calcurse"
 alias reload="source ~/.bashrc"
-
-
-
-
 #Other aliases
 alias v="vim"
 alias ka="killall"
@@ -34,6 +39,9 @@ alias nm="sudo NetworkManager"
 alias yt="youtube-viewer"
 alias espeed="speedometer -r eno1"
 alias wspeed="speedometer -r wlo1"
+alias ping="ping -c 5"
+alias pinstall="sudo pacman -S"
+alias yinstall="yaourt -S"
 
 
 #Directory aliases
@@ -83,6 +91,37 @@ dotup()
 
 
 
+remindme() {
+  if [[ "$#" -lt 2 ]]; then
+    echo -e "Usage: remindme [time] '[message]'"
+    echo -e "Example: remindme 50s 'check mail'"
+    echo -e "Example: remindme 10m 'go to class'"
+    #exit 0 #not enough args
+  fi
+  if [[ "$#" -gt 2 ]]; then
+    echo -e "Usage: remindme [time] '[message]'"
+    echo -e "Example: remindme 50s 'check mail'"
+    echo -e "Example: remindme 10m 'go to class'"
+    #exit 0 #more than enough args
+  fi
+  if  [[ "$#" == 2 ]]; then
+    sleep $1 && notify-send -t 15000 "$2" & echo 'Reminder set'
+  fi
+}
+
+
+welcome()
+{
+  case $1 in 
+    "" | " ")
+  toilet -F metal -t -f mono12 "Welcome ${USER}"
+    ;;
+  r)
+    toilet -F rainbow -t -f mono12 "Welcome ${USER}"
+    ;;
+esac
+  espeak "WELCOME SIR" &>/dev/null
+  }
 
 
 

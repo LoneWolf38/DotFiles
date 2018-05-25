@@ -2745,3 +2745,704 @@ git clone https://github.com/LoneWolf38/DotFiles.git DotFiles
 clear
 ci
 clear
+exit
+ping google.com
+scripts
+config-manager/
+vim cm
+pacman -Q 
+pacman -Q > wc -l 
+pacman -Q | wc -l 
+nm
+ping google.com
+ping google.com
+cmus
+less todo 
+man i3
+cp .config/i3/config Dotfiles/DotFiles/.config/i3/config
+.dotfiles/
+cd
+dot
+cd .config/
+cd i3/
+ll
+man dunst
+xrandr
+sudo pacman arandr
+sudo pacman -S arandr
+ci
+pwd
+vim config 
+clear
+rm dot
+. ~/.bashrc
+vim .bashrc 
+ln -s ~/.bash_history ./.bash_history a
+ln -s ~/.bash_history ./.bash_history 
+vim .bash_history 
+git commit -m "New update"
+git commit -m "New cleaning up"
+rm .bash_history 
+ln ~/.bash_history ./.bash_history 
+git commit -m "Removed the linked file"
+ls -ltra
+ls -lta
+ci
+home
+touch backup
+chmod +x backup 
+vim backup 
+./backup 
+ad
+cbr
+git status > /dev/null
+echo $?
+vim ~/scripts/backup 
+~/scripts/backup \
+~/scripts/backup 
+vim lock.sh 
+cd config-manager/
+rm install 
+vim todo 
+cd i3/
+dor
+rm .vimrc 
+ln ~/.vimrc .vimrc
+rm .xinitrc 
+ln ~/.xinitrc .xinitrc
+rm rofi.conf 
+ln ~/rofi.conf rofi.conf
+rm .bash_logout 
+ln ~/.bash_logout .bash_logout
+rm .bash_profile 
+cd .config/
+dot
+ln ~/.bash_profile .bash_profile
+git statu
+git commit -m "Renewed"
+git commit -m "Readme updated"
+c
+cd ~/scripts/
+conf.py 
+config-manager/ 
+./cm
+./cm add
+./cm 
+vim cm 
+./cm update
+./cm -u
+./cm -i
+./cm -a
+vim todo 
+./cm -a
+vim todo 
+nm
+ping google.com
+exit
+./cm -a
+vim todo 
+nm
+exit
+ping google.com
+pacman -Q 
+pacman -Q > wc -l 
+pacman -Q | wc -l 
+nm
+ping google.com
+ping google.com
+cmus
+update
+config-manager/
+./cm install
+vim cm
+rm Makefile 
+cd scripts/
+git commit -m "cm added"
+git push 
+git pull
+git pull --help
+git pull https://github.com/LoneWolf38/KonfigManager.git origin master
+origin https://github.com/LoneWolf38/KonfigManager
+git remote -v
+git push origin master https://github.com/LoneWolf38/KonfigManager.git
+git push origin master 
+git pull origin master 
+git fetch 
+cd
+scripts
+KonfigManager/
+git init
+git remote add https://github.com/LoneWolf38/KonfigManager.git
+git remote add origin https://github.com/LoneWolf38/KonfigManager.git
+git pull master
+git pull https://github.com/LoneWolf38/KonfigManager.git
+cp ../asdasd/cm .
+git commit -m "Initial Commit"
+git push origin master
+vi vm
+vi cm
+v cm
+mv cm km
+mkdir bin
+cp km bin/
+rm km
+cd bin
+cd ..
+git status
+git add -A
+git commit -m "Bin added"
+git push
+git push --set-upstream origin master
+gitup
+touch install.sh
+chmod install.sh 
+chmod +x install.sh 
+ll
+./install.sh 
+vim pacman 
+vim install.sh 
+clear
+pacman -Q > wc -l 
+pacman -Q | wc -l 
+nm
+ping google.com
+ping google.com
+cmus
+less todo 
+man i3
+cp .config/i3/config Dotfiles/DotFiles/.config/i3/config
+.dotfiles/
+cd
+cd .config/
+cd i3/
+man dunst
+xrandr
+sudo pacman arandr
+sudo pacman -S arandr
+ci
+pwd
+vim config 
+pacman -Q | less
+pacman -Q > paclist
+cp paclist Dotfiles/DotFiles/
+dot
+pacman -Qe
+pacman -Q | wc -l
+pacman -Qe | wc -l
+pacman -Qent | wc -l
+pacman -Qent 
+killall screenkey
+pacman -Qm 
+sudo pacman -S expac
+sudo pacman -S pacgraph
+man comm
+man pacman
+pacman -l
+pacman -lq
+pacman -Slq
+pq
+pacman -S yaourt
+sudo pacman -S yaourt
+vim /etc/pacman.conf 
+ll
+comm -12 <(pacman -Slq | sort) <(sort paclist)
+vim paclist 
+pacgraph -c | head
+pacgraph -c
+clear
+man i3
+dot
+ll
+./lock.sh 
+./lock.sh --lock dimblur
+vim lock.sh 
+clear
+update
+clear
+dot
+ll
+clear
+git add -A
+git commit -m "conky script is added"
+git push
+update
+vim config 
+pacman -Q | less
+pacman -Q > paclist
+cp paclist Dotfiles/DotFiles/
+pacman -Qe
+pacman -Q | wc -l
+pacman -Qe | wc -l
+pacman -Qent | wc -l
+pacman -Qent 
+killall screenkey
+pacman -Qm 
+sudo pacman -S expac
+sudo pacman -S pacgraph
+man comm
+man pacman
+pacman -l
+pacman -lq
+pacman -Slq
+pq
+pacman -S yaourt
+sudo pacman -S yaourt
+comm -12 <(pacman -Slq | sort) <(sort paclist)
+vim paclist 
+pacgraph -c | head
+pacgraph -c
+man i3
+./lock.sh 
+./lock.sh --lock dimblur
+vim lock.sh 
+update
+git add -A
+git commit -m "conky script is added"
+git push
+update
+ci
+ll | grep pac
+cp paclist scripts/KonfigManager/
+pacman -Q > paclist_all
+pacman -Qqe > paclist_expl
+yaourt -S < aurlist
+yaourt -S yum
+yaourt -Qm
+man yaourt
+yaourt -Qme
+yaourt -Qmed
+yaourt -Qmd
+yaourt - < aurlist
+yaourt screenkey
+yaourt -S screenkey soulseekqt
+cat aurlist | yaourt -S 
+cat aurlist | yaourt -S -
+tr '\n' ' ' aurlist 
+tr '\n' ' ' < aurlist 
+tr '\n' ' ' < aurlist > aurlist
+yaourt -S < aurlist 
+yaourt -S - < aurlist 
+pacman -Qqm > aur
+tr '\n' ' ' < aur > aurlist
+less aurlist 
+yaourt -S - < aurlist
+for x in [ $((cat aur)) ]; print x
+cat peptides.txt | while read line; do done
+cat peptides.txt | while read line ; do  print line; done
+cat aur | while read line ; do  print line; done
+cat aur | while read line ; do  echo line; done
+cat aur | while read line ; do  echo ${line}; done
+cat aur | while read line ; do  yaourt -S ${line}; done
+echo " adas \n"
+echo " adas "
+whereis yaourt
+cat aur
+sudo pacman -S i3-gaps
+cd /bin
+scripts/KonfigManager/
+~/scripts/KonfigManager/
+bin
+cd
+pacman -Qqm > aurlist
+cp aurlist scripts/KonfigManager/
+vim /etc/pacman.conf 
+sudo pacman -Syu
+dor
+dot
+ll
+vim rofi.conf 
+sudo nethogs
+clear
+chmod install.sh 
+chmod +x install.sh 
+vim pacman 
+pacman -Q > wc -l 
+pacman -Q | wc -l 
+cmus
+less todo 
+man i3
+cp .config/i3/config Dotfiles/DotFiles/.config/i3/config
+.dotfiles/
+cd
+cd .config/
+cd i3/
+man dunst
+xrandr
+sudo pacman arandr
+sudo pacman -S arandr
+ci
+pwd
+vim config 
+pacman -Q | less
+pacman -Q > paclist
+cp paclist Dotfiles/DotFiles/
+dot
+pacman -Qe
+pacman -Q | wc -l
+pacman -Qe | wc -l
+pacman -Qent | wc -l
+pacman -Qent 
+pacman -Qm 
+sudo pacman -S expac
+sudo pacman -S pacgraph
+man comm
+man pacman
+pacman -l
+pacman -lq
+pacman -Slq
+pq
+pacman -S yaourt
+sudo pacman -S yaourt
+vim /etc/pacman.conf 
+comm -12 <(pacman -Slq | sort) <(sort paclist)
+vim paclist 
+pacgraph -c | head
+pacgraph -c
+man i3
+dot
+./lock.sh 
+./lock.sh --lock dimblur
+vim lock.sh 
+update
+dot
+git commit -m "conky script is added"
+git push
+update
+nm
+scripts/KonfigManager/
+rm pacman 
+git commit -m "install.sh added"
+sudo nethogs
+ping google.com
+./install.sh 
+.
+cd KonfigManager/
+mkdir pkgs
+cp paclist pkgs/
+mv paclist pkgs/
+mv aurlist pkgs/
+git add -A
+git commit -m "Installation done"
+gitup
+vim install.sh 
+cd bin/
+vim km 
+..
+clear
+ll
+killall screenkey
+pip
+nf
+comm -12 <(pacman -Slq | sort) <(sort paclist)
+vim paclist 
+pacgraph -c | head
+pacgraph -c
+man i3
+dot
+ll
+./lock.sh 
+./lock.sh --lock dimblur
+vim lock.sh 
+dot
+ll
+git add -A
+git commit -m "conky script is added"
+git push
+killall pamac
+pamac
+killall pamac-daemon
+sudo rm /var/lib/pacman/db.lck 
+update
+systemctl stop pamac-daemon.service
+'
+man yaourt
+sudo pacman -S _ < cat paclist 
+sudo pacman -S < cat paclist 
+sudo pacman -S < less paclist 
+man grep
+sudo pacman -S soulseekqt
+pacman -Qqm
+pacman -Qqe
+sudo pacman -S screenfetch
+pacman -Qqe | grep -v "$(pacman -Qqm)
+"
+pacman -Qqe | grep -v "$(pacman -Qqm)"
+sudo pacman -S < pacman -Qqe | grep -v "$(pacman -Qqm)"
+sudo pacman -S - < 
+sudo pacman -S < [ pacman -Qqe | grep -v "$(pacman -Qqm)" ]
+pacman -Qqe | grep -v "$(pacman -Qqm)" > paclist
+less paclist 
+sudo pacman -S - < paclist
+clear
+pacman -Qqe | grep -v "$(pacman -Qqm)
+"
+pacman -Qqe | grep -v "$(pacman -Qqm)"
+sudo pacman -S < pacman -Qqe | grep -v "$(pacman -Qqm)"
+sudo pacman -S - < 
+sudo pacman -S < [ pacman -Qqe | grep -v "$(pacman -Qqm)" ]
+pacman -Qqe | grep -v "$(pacman -Qqm)" > paclist
+less paclist 
+sudo pacman -S - < paclist
+cd .config/
+awesome/
+rm -rf *
+cd
+git clone https://github.com/worron/awesome-config.git ~/.config/awesome --recursive
+cd .config/awesome/
+vim rc.lua 
+vim rc-colorless.lua 
+vim rc-red.lua 
+cd red
+cd redflat/
+ll
+vim init.lua 
+vim menu.lua 
+..
+clear
+pacman -Qqe | grep -v "$(pacman -Qqm)" > paclist
+less paclist 
+sudo pacman -S - < paclist
+nm
+sudo pacman -R awesome
+sudo pacman -R awesome-freedesktop-git awesome 
+sudo pacman -S awesome
+update
+clear
+exit
+exit
+sudo pacman -S awesome
+update
+exit
+dot
+clear
+cd
+cd .config/
+cd awesome/
+cd redflat/
+float
+ll
+vim hotkeys.lua 
+vim keychain.lua 
+update
+exit
+dot
+cd .config/
+cd awesome/
+cd redflat/
+float
+vim hotkeys.lua 
+vim keychain.lua 
+rm /var/lib/pacman/db.lck 
+sudo rm /var/lib/pacman/db.lck 
+sudo nethogs
+ping google.com
+sudo pacman -R awesome
+sudo pacman -S openbox obconf obmenu
+git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.themes
+rmdir .git
+rmdir -f .git
+rm -rf .git
+cd
+git clone https://github.com/addy-dclxvi/gtk-theme-collections ~/.themes
+cd .themes/
+;;
+ll
+clear
+git clone https://github.com/addy-dclxvi/gtk-theme-collections 
+lxapperance
+lxappearance
+lxappearance
+rofi
+rofi --show 
+rofi -show 
+clear
+ci
+rofi -show run -config /home/drake/rofi.conf 
+killall tint2
+.config/
+vim compton.conf
+vim compton.conf.back 
+sudo pacman -R awesome
+sudo pacman -R awesome-freedesktop-git awesome 
+sudo pacman -S awesome
+update
+exit
+exit
+sudo pacman -S awesome
+update
+exit
+dot
+cd awesome/
+cd redflat/
+float
+vim hotkeys.lua 
+vim keychain.lua 
+update
+exit
+dot
+cd awesome/
+cd redflat/
+float
+vim hotkeys.lua 
+vim keychain.lua 
+rm /var/lib/pacman/db.lck 
+sudo rm /var/lib/pacman/db.lck 
+sudo nethogs
+ping google.com
+sudo pacman -R awesome
+sudo pacman -S openbox obconf obmenu
+git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.themes
+rmdir .git
+rmdir -f .git
+rm -rf .git
+git clone https://github.com/addy-dclxvi/gtk-theme-collections ~/.themes
+cd .themes/
+;;
+git clone https://github.com/addy-dclxvi/gtk-theme-collections 
+lxapperance
+lxappearance
+lxappearance
+rofi
+rofi --show 
+rofi -show 
+rofi -show run -config /home/drake/rofi.conf 
+killall tint2
+nm
+.config/polybar
+vim config
+ckear
+cd
+ci
+cd .config/
+cp compton.conf compton.conf.back
+vim compton.conf.back 
+vim compton.conf
+compton -f --config /home/drake/.config/compton.conf
+cp compton.conf.back compton.conf
+killall compton
+cd tint2/
+git clone https://github.com/addy-dclxvi/tint2-theme-collections  --depth 1
+cd tint2-theme-collections/
+yaourt skippy
+tint2 -c ~/.config/tint2/blocks/blocks.tint2rc &
+cd blocks/
+..
+cd launchy/
+ll
+tint2
+clear
+tint2 -c ./launchy.tint2rc 
+killall tint2
+clear
+cp compton.conf compton.conf.back
+vim compton.conf.back 
+vim compton.conf
+compton -f --config /home/drake/.config/compton.conf
+cp compton.conf.back compton.conf
+killall compton
+cd tint2/
+git clone https://github.com/addy-dclxvi/tint2-theme-collections  --depth 1
+cd tint2-theme-collections/
+yaourt skippy
+tint2 -c ~/.config/tint2/blocks/blocks.tint2rc &
+cd blocks/
+..
+cd launchy/
+ll
+tint2
+tint2 -c ./launchy.tint2rc 
+skippy-xd
+cd .config/polybar/
+l
+killall polybar
+killall polybar 
+vim config
+sudo pacman -S vnstati
+yaourt vnstati
+vnstat -u -i eno1
+sudo vnstat -u -i eno1
+sudo vnstat -u -i wlo1
+vnstat --islist
+vnstat --iflist
+systemctl start vnstat.service
+sudo systemctl start vnstat.service
+vnstat -m
+ps -aux | grep vnst
+ci
+vnstat
+clea
+cd
+clear
+ipconfig
+ifconfig
+killall conky
+ifconfig
+neofetch
+clear
+vis
+clear
+vnstat
+clea
+cd
+ipconfig
+ifconfig
+ifconfig
+killall conky
+top
+htop
+neofetch
+screenfetch
+vim
+clear
+screenfetch
+vim
+scripts
+;
+cd KonfigManager/
+ll
+l
+cd bin
+vim km
+clear
+top
+htop
+neofetch
+screenfetch
+vim
+nm
+ci
+dot
+cd i3/
+cd .config/
+i3/
+clear
+vim config 
+cd ..
+ll
+clea
+ipconfig
+ifconfig
+ifconfig
+killall conky
+top
+htop
+neofetch
+screenfetch
+vim
+yaourt pb-for-desktop
+sudo pacman -S pushbullet
+dot
+cd .config/
+cd i3
+;;
+[ -e .bash_history ] 
+echo $?
+if [ -e .bash_history ]; then echo "Hello"; fi
+cd
+ll
+ll | grep DotFiles
+git clone https://github.com/LoneWolf38/DotFiles.git ~/DotFiles
+clear
+sudo nethogs
+clear
+cmus

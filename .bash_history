@@ -3446,3 +3446,43 @@ clear
 sudo nethogs
 clear
 cmus
+killall conky
+top
+htop
+neofetch
+screenfetch
+vim
+yaourt pb-for-desktop
+sudo pacman -S pushbullet
+cd .config/
+cd i3
+;;
+[ -e .bash_history ] 
+echo $?
+if [ -e .bash_history ]; then echo "Hello"; fi
+ll | grep DotFiles
+git clone https://github.com/LoneWolf38/DotFiles.git ~/DotFiles
+sudo nethogs
+cmus
+scripts/KonfigManager/
+l
+vim install.sh 
+vim ~/.bash_profile 
+vim ~/.bash_logout
+man reload
+extract
+dot
+vim ~/.bashrc
+reload
+dotup "aliases update"
+clea
+c
+vim paclist 
+pacman -Qq > paclist
+dotup
+dotup paclist update
+~/scripts/KonfigManager/
+cd pkgs/
+ll
+cd
+clear

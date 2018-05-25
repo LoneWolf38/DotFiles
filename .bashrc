@@ -47,7 +47,10 @@ alias cbr="vim ~/.bashrc"
 alias cv="vim ~/.vimrc"
 alias ci="vim ~/.config/i3/config"
 alias dot="cd ~/Dotfiles/DotFiles/"
-
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
 
 
 extract () {

@@ -49,9 +49,11 @@ automake
 autossh
 avahi
 awf-git
+aws-cli
 babl
 baloo
 baloo-widgets
+banner
 baobab
 bash
 bash-completion
@@ -120,6 +122,7 @@ clutter-gst
 clutter-gtk
 clyrics
 cmake
+cmatrix
 cmus
 cogl
 coin-or-cbc
@@ -235,6 +238,8 @@ ffmpeg
 ffmpeg2.8
 fftw
 fiddler
+figlet
+figlet-fonts
 file
 file-roller
 filesystem
@@ -532,6 +537,7 @@ jansson
 jasper
 java-environment-common
 java-runtime-common
+jave
 jbig2dec
 jdk8-openjdk
 jemalloc
@@ -947,6 +953,7 @@ libusb
 libusb-compat
 libusbmuxd
 libutempter
+libutf8proc
 libutil-linux
 libuv
 libva
@@ -1033,6 +1040,7 @@ lolcat
 lpsolve
 lrzip
 lsb-release
+lshw
 lua
 lua-filesystem
 lua-lgi
@@ -1410,13 +1418,16 @@ python-babel
 python-bcrypt
 python-beaker
 python-beautifulsoup4
+python-botocore
 python-cairo
 python-cffi
 python-chardet
 python-click
+python-colorama
 python-colorlog
 python-crypto
 python-cryptography
+python-dateutil
 python-dbus
 python-dbus-common
 python-decorator
@@ -1437,6 +1448,7 @@ python-itsdangerous
 python-jedi
 python-jellyfish
 python-jinja
+python-jmespath
 python-jose
 python-lazy-object-proxy
 python-lxml
@@ -1482,6 +1494,7 @@ python-pywal
 python-pyxattr
 python-requests
 python-rsa
+python-s3transfer
 python-scikit-learn
 python-scipy
 python-setuptools
@@ -1656,6 +1669,7 @@ reiserfsprogs
 remarkable
 rest
 rhash
+rig
 rlwrap
 rocketchat-client
 rofi
@@ -1820,6 +1834,8 @@ tint3
 tinycdb
 tk
 tmux
+toilet
+toilet-fonts
 tolua++
 totem
 totem-plparser
@@ -1954,6 +1970,7 @@ xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
 xclip
+xcowsay
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-user-dirs

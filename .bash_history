@@ -3921,3 +3921,99 @@ i3.
 i3/
 ll
 clear
+ln -s ~/.Xdefaults .Xdefaults
+rm .Xauthority 
+rm .Xdefaults 
+ln ~/.Xdefaults .Xdefaults
+ln  ~/.Xauthority .Xauthority
+cd .config/
+i3.
+i3/
+dot
+if [ -e .gtkrc-2.0 ]; then echo "Hello"; fi
+if [ -e ".gtkrc-2.0" ]; then echo "Hello"; fi
+man cp
+man mv
+man ln
+ll
+cbr
+reload
+welcome
+welcome r
+clear
+espeak -s 125 -v en+whisperf 'Please be quiet in the sanitarium'
+fortune | espeak -s 125 -v en+klatt3
+toilet -f mono12 Hello
+killall tint2
+dot
+killall urxvt
+xprop
+tmux -c welcome
+man tmux
+terminator -T "Hllo"
+cmus
+exit
+termite -e welcome
+terminator -e welcome
+killall termite
+clar
+termite
+terminator -e welcome
+killall urxvt
+xprop
+tmux -c welcome
+man tmux
+terminator -T "Hllo"
+cmus
+exit
+termite -e welcome
+terminator -e welcome
+killall termite
+clar
+termite
+terminator -e welcome
+man toiler
+man toilet
+welcome r
+man toiler
+man toilet
+welcome r
+cd bin/
+vim km 
+nm
+dotup "more files added"
+pacman -Qeq > ~/scripts/KonfigManager/pkgs/paclist 
+pacman -Qqe > ~/scripts/KonfigManager/pkgs/aurlist 
+pacman -Qqm > ~/scripts/KonfigManager/pkgs/aurlist 
+pacman -Qqe > ~/scripts/KonfigManager/pkgs/paclist 
+rig
+welcome
+man reload
+reload help
+which reload
+refload
+reload
+cbr
+ci
+tint2
+vim bin/km
+dotupdate
+dotup
+dotup "added more files"
+refresh
+scripts/KonfigManager/
+ll
+git add -A
+git commit -m "Added new files"
+gitup
+cd
+less /etc/rc.local
+find -f rc.local
+find / rc.local
+man find
+cd /etc/init.d/
+systemctl status rc-local.service
+ping google.com
+clear
+ping google.com
+clear

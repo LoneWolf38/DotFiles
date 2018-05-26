@@ -21,7 +21,6 @@ alias music="cmus"
 alias email="mutt"
 alias files="ranger"
 alias calendar="calcurse"
-alias reload="source ~/.bashrc"
 #Other aliases
 alias v="vim"
 alias ka="killall"
@@ -121,7 +120,22 @@ welcome()
     ;;
 esac
   espeak "WELCOME SIR" &>/dev/null
-  }
+}
+
+
+refresh()
+{
+  source ~/.bashrc
+  pacman -Qqe > ~/scripts/KonfigManager/pkgs/paclist
+  pacman -Qqm > ~/scripts/KonfigManager/pkgs/aurlist
+  pacman -Qq > ~/Dotfiles/DotFiles/paclist
+}
+
+dotupdate()
+{
+  cp ~/.config/i3/config ~/Dotfiles/DotFiles/.config/i3/config
+}
+
 
 
 

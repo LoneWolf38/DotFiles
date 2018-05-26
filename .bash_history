@@ -3867,3 +3867,57 @@ reload
 welcome
 welcome r
 clear
+ci
+man toiler
+man toilet
+cbr
+reload
+welcome r
+welcome
+scripts/KonfigManager/
+cd bin/
+ll
+vim km 
+nm
+ping google.com
+dotup "more files added"
+clear
+clar
+termite
+terminator -e welcome
+ci
+man toiler
+man toilet
+reload
+welcome
+welcome r
+ci
+man toiler
+man toilet
+reload
+welcome r
+welcome
+scripts/KonfigManager/
+cd bin/
+vim km 
+dotup "more files added"
+nm
+ping google.com
+cbr
+sudo pacman -S awscli
+yinstall awscli
+pinstall aws-cli
+aws help
+cd Dotfiles/
+dot
+ln -s ~/.Xauthority .Xauthority
+ln -s ~/.Xdefaults .Xdefaults
+rm .Xauthority 
+rm .Xdefaults 
+ln ~/.Xdefaults .Xdefaults
+ln  ~/.Xauthority .Xauthority
+cd .config/
+i3.
+i3/
+ll
+clear

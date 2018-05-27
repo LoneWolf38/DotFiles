@@ -71,20 +71,9 @@ font-5 = NotoSans-Regular:size=8;-1
 font-6 = MaterialIcons:size=10;-1
 font-7 = Termsynu:size=8:antialias=false;0
 
-
-
-
-
-
-
-
-
-
-
-
 modules-left = my-text-label voidi3 
 modules-center = date
-modules-right = volume1  temperature eth wifi battery1 
+modules-right =  temperature eth wifi battery1 
 
 ;tray-position = right
 ;tray-padding = 9
@@ -304,7 +293,7 @@ font-3 = NotoSans-Regular:size=8;-1
 font-4 = MaterialIcons:size=10;-1
 font-5 = Termsynu:size=8:antialias=false;0
 
-modules-left = powermenu uptime backlight 
+modules-left = powermenu uptime backlight volume1
 modules-center = cmus
 modules-right = cpu memory
 

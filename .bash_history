@@ -4168,3 +4168,21 @@ cd .config/polybar/
 vim uptime.sh
 chmod +x uptime.sh 
 clear
+killall conky
+cear
+clear
+
+neofetch 
+clear
+d
+cava
+clear
+neofetch 
+d
+man cava
+sudo pacman -S
+sudo pacman -S cava
+yaourt cava
+cava
+cava help
+clear

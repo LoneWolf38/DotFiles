@@ -56,19 +56,35 @@ border-size = 0
 border-color = ${colors.my_color2}
 
 padding-left = 0
-padding-right = 0
+padding-right = 2
 
 module-margin-left = 4
-module-margin-right = 0
+module-margin-right = 3
 
 font-2 = FontAwesome:fontformat=truetype:size=9;1
 font-0 = San Francisco:fontformat=truetype:size= 9;1
 font-1 = monofur:fontformat=truetype:size= 9;1
 
+font-3 = NotoSans-Regular:size=8;0
+font-4 = unifont:size=6;-3
+font-5 = NotoSans-Regular:size=8;-1
+font-6 = MaterialIcons:size=10;-1
+font-7 = Termsynu:size=8:antialias=false;0
+
+
+
+
+
+
+
+
+
+
+
 
 modules-left = my-text-label voidi3 
 modules-center = date
-modules-right = temperature eth wifi 
+modules-right = volume1  temperature eth wifi battery1 
 
 ;tray-position = right
 ;tray-padding = 9
@@ -125,38 +141,38 @@ label-focused-background = ${colors.pink}
 label-unfocused =
 label-urgent =
 
-[module/i3]
-type = internal/i3
-format = <label-state><label-mode>
+;[module/i3]
+;type = internal/i3
+;format = <label-state><label-mode>
 
-index-sort = true
-enable-click = true
-enable-scroll = false
+;index-sort = true
+;enable-click = true
+;enable-scroll = false
 
-ws-icon-0 = 0;*
-ws-icon-default = ○
+;ws-icon-0 = 0;*
+;ws-icon-default = ○
 
 ; Only show workspaces on the same output as the bar
 pin-workspaces = true
 
-label-mode = " %mode% "
-label-mode-foreground = ${colors.red}
-label-mode-background = ${colors.my_background1}
+;label-mode = " %mode% "
+;label-mode-foreground = ${colors.red}
+;label-mode-background = ${colors.my_background1}
 
 ; focused = Active workspace on focused monitor
-label-focused = " ● "
-label-focused-foreground = ${colors.blue}
-label-focused-background = ${colors.my_background1}
+;label-focused = " ● "
+;label-focused-foreground = ${colors.blue}
+;label-focused-background = ${colors.my_background1}
 
 ; unfocused = Inactive workspace on any monitor
-label-unfocused = " %icon% "
-label-unfocused-foreground = ${colors.my_color2}
-label-unfocused-background = ${colors.my_background1}
+;label-unfocused = " %icon% "
+;label-unfocused-foreground = ${colors.my_color2}
+;label-unfocused-background = ${colors.my_background1}
 
 ; urgent = Workspace with urgency hint set
-label-urgent = " ● "
-label-urgent-foreground = ${colors.red}
-label-urgent-background = ${colors.my_background1}
+;label-urgent = " ● "
+;label-urgent-foreground = ${colors.red}
+;label-urgent-background = ${colors.my_background1}
 
 
 [module/date]
@@ -217,7 +233,7 @@ full-at = 98
 format-charging = <animation-charging> <label-charging>
 format-discharging = <ramp-capacity> <label-discharging>
 format-full = <ramp-capacity> <label-full>
-1
+ 
 ramp-capacity-0 = 
 ramp-capacity-0-foreground = #f53c3c
 ramp-capacity-1 = 
@@ -288,7 +304,7 @@ font-3 = NotoSans-Regular:size=8;-1
 font-4 = MaterialIcons:size=10;-1
 font-5 = Termsynu:size=8:antialias=false;0
 
-modules-left = powermenu uptime battery volume backlight 
+modules-left = powermenu uptime backlight 
 modules-center = cmus
 modules-right = cpu memory
 
@@ -577,21 +593,60 @@ content-foreground = ${colors.my_foreground}
 content-underline = #7df059
 
 
+[module/volume1]
+type = internal/volume
+
+format-volume = <label-volume> <bar-volume>
+label-volume = 
+label-volume-foreground = ${colors.my_foreground}
+
+format-muted-prefix = "   "
+format-muted-foreground = ${colors.my_foreground}
+label-muted =  "Muted"
+format-muted-underline = #8FF6FF
 
 
+bar-volume-width = 10
+bar-volume-foreground-0 = #8FF6FF
+bar-volume-gradient = false
+bar-volume-indicator =
+bar-volume-fill = ""
+bar-volume-fill-font = 1
+bar-volume-empty = ""
+bar-volume-empty-font = 1
+bar-volume-empty-foreground = #555 
 
 
+[module/battery1]
+type = internal/battery
+battery = BAT0
+adapter = ADP0
+full-at = 98
 
+format-charging =  <label-charging> <animation-charging>
+format-charging-underline = ${colors.my_color3}
 
+format-discharging = <label-discharging> <ramp-capacity>
+format-discharging-underline = ${self.format-charging-underline}
 
+format-full-suffix = "   "
+format-full-suffix-foreground = ${self.format-charging-underline}
+format-full-underline = ${self.format-charging-underline}
 
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 
+ramp-capacity-foreground = ${self.format-charging-underline}
 
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
 
-
-
-
-
-
-
+animation-charging-foreground = ${self.format-charging-underline}
+animation-charging-framerate = 750
 

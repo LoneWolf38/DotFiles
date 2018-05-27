@@ -4186,3 +4186,419 @@ yaourt cava
 cava
 cava help
 clear
+exit
+quit
+vim .Xdefaults 
+urxvt
+exit
+welcome
+welcome
+xprop
+welcome
+welcome
+welcome
+welcome
+termite
+urxvt
+man urxvt
+urxvt -g 1200x80
+urxvt -g 100x80
+urxvt -geometry 100x80
+tmux
+exit
+welcome
+tint2
+cleear
+cl
+c
+update
+xprop
+exit
+man terminator
+termintor -t hello
+terminator -t hello
+terminator -T hello
+espeak "Hello"
+espeak -s 125 -v en+croak 'Listen to my lovely voice as I try not to cry'
+espeak -s 125 -v en+f5 'Hey, handsome. Did you just spill soda on my designer bag?'
+espeak -v en+f5 'Hey, handsome. Did you just spill soda on my designer bag?'
+espeak -s 125 -v en+m3 'Oh! I thought that was a trash bag.'
+espeak -s 125 -v en+whisperf 'Please be quiet in the sanitarium'
+fortune | espeak -s 125 -v en+klatt3
+cbr
+welcome
+cbr
+welcome
+toilet -f mono12 Hello
+welcome
+killall tint2
+dot
+killall urxvt
+welcome
+welcome
+xprop
+tmux -c welcome
+man tmux
+terminator -T "Hllo"
+tint2
+cmus
+exit
+welcome
+exit
+welcome
+welcome
+welcome
+exit
+espeak -s 125 -v en+f5 'Hey, handsome. Did you just spill soda on my designer bag?'
+espeak -v en+f5 'Hey, handsome. Did you just spill soda on my designer bag?'
+espeak -s 125 -v en+m3 'Oh! I thought that was a trash bag.'
+espeak -s 125 -v en+whisperf 'Please be quiet in the sanitarium'
+fortune | espeak -s 125 -v en+klatt3
+toilet -f mono12 Hello
+killall tint2
+dot
+killall urxvt
+xprop
+tmux -c welcome
+man tmux
+terminator -T "Hllo"
+tint2
+cmus
+exit
+welcome
+termite -e welcome
+terminator -e welcome
+killall termite
+clar
+cbr
+welcome
+termite
+terminator -e welcome
+killall urxvt
+xprop
+tmux -c welcome
+man tmux
+terminator -T "Hllo"
+tint2
+cmus
+exit
+termite -e welcome
+terminator -e welcome
+killall termite
+clar
+termite
+terminator -e welcome
+man toiler
+man toilet
+cbr
+welcome
+welcome r
+man toiler
+man toilet
+cbr
+welcome r
+welcome
+cd bin/
+vim km 
+dotup "more files added"
+clar
+termite
+terminator -e welcome
+man toiler
+man toilet
+welcome
+welcome r
+man toiler
+man toilet
+welcome r
+welcome
+cd bin/
+vim km 
+dotup "more files added"
+cbr
+sudo pacman -S awscli
+yinstall awscli
+pinstall aws-cli
+aws help
+cd Dotfiles/
+dot
+ln -s ~/.Xauthority .Xauthority
+ln -s ~/.Xdefaults .Xdefaults
+rm .Xauthority 
+rm .Xdefaults 
+ln ~/.Xdefaults .Xdefaults
+ln  ~/.Xauthority .Xauthority
+i3.
+i3/
+ln -s ~/.Xdefaults .Xdefaults
+rm .Xauthority 
+rm .Xdefaults 
+ln ~/.Xdefaults .Xdefaults
+ln  ~/.Xauthority .Xauthority
+i3.
+i3/
+dot
+if [ -e .gtkrc-2.0 ]; then echo "Hello"; fi
+if [ -e ".gtkrc-2.0" ]; then echo "Hello"; fi
+man cp
+man mv
+man ln
+cbr
+welcome
+welcome r
+espeak -s 125 -v en+whisperf 'Please be quiet in the sanitarium'
+fortune | espeak -s 125 -v en+klatt3
+toilet -f mono12 Hello
+killall tint2
+dot
+killall urxvt
+xprop
+tmux -c welcome
+man tmux
+terminator -T "Hllo"
+cmus
+exit
+termite -e welcome
+terminator -e welcome
+killall termite
+clar
+termite
+terminator -e welcome
+killall urxvt
+xprop
+tmux -c welcome
+man tmux
+terminator -T "Hllo"
+cmus
+exit
+termite -e welcome
+terminator -e welcome
+killall termite
+clar
+termite
+terminator -e welcome
+man toiler
+man toilet
+welcome r
+man toiler
+man toilet
+welcome r
+cd bin/
+vim km 
+dotup "more files added"
+pacman -Qeq > ~/scripts/KonfigManager/pkgs/paclist 
+pacman -Qqe > ~/scripts/KonfigManager/pkgs/aurlist 
+pacman -Qqm > ~/scripts/KonfigManager/pkgs/aurlist 
+pacman -Qqe > ~/scripts/KonfigManager/pkgs/paclist 
+rig
+welcome
+man reload
+reload help
+which reload
+refload
+cbr
+tint2
+vim bin/km
+dotup "added more files"
+git commit -m "Added new files"
+gitup
+less /etc/rc.local
+find -f rc.local
+find / rc.local
+man find
+cd /etc/init.d/
+systemctl status rc-local.service
+tint2
+vim bin/km
+dotup "added more files"
+git commit -m "Added new files"
+gitup
+less /etc/rc.local
+find -f rc.local
+find / rc.local
+man find
+cd /etc/init.d/
+systemctl status rc-local.service
+ls hw
+lsbhw
+man ls
+pinstall lshw
+cbr
+dotup "new packages added"
+vim ~/scripts/KonfigManager/pkgs/paclist 
+paclist
+lshw
+c
+nm
+sudo pacman -S scmi
+sudo pacman -S scim
+refresh 
+cd Projects/
+cd voidrice/
+cd .config/
+cd polybar/
+killall polybar
+polybar help
+polybar -c config
+polybar -c ./config
+less launch.sh 
+killall systray
+ci
+kill pamac-tray
+kilalll pamac-tray
+vim ~/.config/polybar/launch.sh 
+killall nm-applet
+polybar example -c config
+vim config 
+vim pkg.sh 
+sudo pacman -S trizen
+yaourt trizen
+yaourt trizen 
+checkupdates | wc -l
+checkupdates
+man checkupdates
+trizen -Su --aur --quiet
+git clone https://github.com/x70b1/polybar-scripts.git 
+yaourt hamster
+scripts/KonfigManager/
+vim bin/km 
+cd bin 
+ls -r
+cp -r *.sh ../scripts
+mkdir scripts
+cp -r */*.sh ../scripts
+ll | wc -l 
+clea
+ll > list
+cp list ../scripts/
+cd scripts/
+vim list
+cd ../polybar-scripts/
+rm list 
+cd player-mpris-tail/
+vim ~/.config/polybar/
+rm build.sh 
+rm CONTRIBUTING.md 
+rmdir .git/
+rmdir -f .git/
+rm -erf .git/
+rm -rf .git/
+rm LICENSE 
+rm .travis.yml 
+rm -rf scripts/
+cp polybar-scripts/* .
+cp -r polybar-scripts/* .
+rm README.md 
+cd system-
+cd system-usb-
+cd system-usb-udev/
+cd screenshots/
+cd .config/polybar/ll
+cd notification-github/
+rm -f */.md
+rm -rf */.md
+cd ..
+rm -rf */*.md
+cp -r polybar-scripts/* ~/Dotfiles/DotFiles/.config/polybar/
+cd polybar-scripts/
+ll | wc -l
+cd info-
+cd info-trash/
+;
+cd 
+hamster current
+sudo nethogs
+killall pamac-tray
+vim .config/polybar/
+cp config config.2
+.config/polybar/
+vim conky
+man conky
+conky -c conky 
+conky
+vim .config/polybar/config
+dotup "polybar revamped"
+dotup "polybar script added"
+cd .config/i3/
+./conky_start.sh 
+cd scripts/KonfigManager/
+ll
+git status
+git -A
+git add -A
+git commit -m "new packages"
+git push
+cd
+cd .config/polybar/
+vim config
+refresh
+reload
+dotupdate
+dotup "polybar update"
+ping google.com
+dotup
+clear
+less /etc/rc.local
+find -f rc.local
+find / rc.local
+man find
+cd /etc/init.d/
+systemctl status rc-local.service
+reload
+tint2
+vim bin/km
+dotup "added more files"
+scripts/KonfigManager/
+git add -A
+git commit -m "Added new files"
+gitup
+less /etc/rc.local
+find -f rc.local
+find / rc.local
+man find
+cd /etc/init.d/
+systemctl status rc-local.service
+nm
+ls hw
+lsbhw
+man ls
+pinstall lshw
+dotupdate
+cbr
+refresh
+dotup
+dotup "new packages added"
+vim ~/scripts/KonfigManager/pkgs/paclist 
+paclist
+lshw
+vim config
+xrandr
+vim ~/.config/polybar/config
+cd updates-arch-combined/
+chmod +x updates-arch-combined.sh 
+cd ..
+chmod +x system-usb-udev.sh 
+sudo pacman -S jq
+sudo pacman -S udisks2
+cd 
+dot
+cd .config/polybar/
+cd system-usb-udev/
+ll
+cp 95-usb.rule /etc/udev/rules.d/
+pwd
+sudo cp 95-usb.rule /etc/udev/rules.d/
+cd
+c
+ifconfig
+ip link
+ifname
+vnstat
+killall conky
+yaourt nerdfont
+yaourt nerdfonts
+yaourt nerd-fonts
+yinstall nerd-fonts-complete
+ci
+ping google.com
+clear

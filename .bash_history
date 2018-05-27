@@ -4101,3 +4101,70 @@ refresh
 reload
 dotupdate
 clear
+cd .config/polybar/
+nm-applet &
+pacmac-tray &
+pamac-tray &
+~/.config/polybar/
+l
+cmus-remote -c status
+vim cmus.sh 
+clea
+cmus-remote -C status
+ci
+vim config
+cbr
+refresh
+reload
+dotupdate
+ll | grep -v  "$(ll ../polybar_scripts
+"
+ll | grep -v  "$(ll ../polybar_scripts)"
+cd scripts/
+ll | grep -v  "$(ll ../polybar-scripts)"
+ll > listasd
+vim listasd
+less list | wc -l
+less listasd | wc -l
+ping google.com
+cd ..
+;;
+cd polybar-scripts/
+ll
+rmdir */screenshots
+rmdir */screenshots/*
+rm -r */screenshots/*
+cd 
+clear
+cd ..
+;;
+cd polybar-scripts/
+rmdir */screenshots
+rmdir */screenshots/*
+rm -r */screenshots/*
+cd 
+O
+P
+cd voidrice/
+cd .config/polybar/
+killall polybar
+polybar example -c config
+polybar example -c config &
+ll
+vim config 
+clear
+vim config 
+vis
+ci
+clear
+cmatrix
+clear
+vis
+ll
+vim config 
+neofetch
+clear
+cd .config/polybar/
+vim uptime.sh
+chmod +x uptime.sh 
+clear

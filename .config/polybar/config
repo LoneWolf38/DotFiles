@@ -19,7 +19,10 @@ my_color12	= ${xrdb:color12}
 my_color13	= ${xrdb:color13}
 my_color14	= ${xrdb:color14}
 my_color15	= ${xrdb:color15}
+foreground-alt = #555
 
+alert = #bd2c40
+col = #00f
 
 
 trans = #DA292b2e
@@ -40,14 +43,14 @@ height = 20
 offset-x = 0
 offset-y = 0
 radius = 0.0
-fixed-center = true
+fixed-center = false
 
 
-background = ${colors.my_background1}
+background = ${colors.my_background}
 foreground =  ${colors.my_foreground}
 
-line-size = 2.5
-line-color = ${colors.my_foreground}
+line-size = 4.5
+line-color = ${colors.white}
 
 border-size = 0
 border-color = ${colors.my_color2}
@@ -55,7 +58,7 @@ border-color = ${colors.my_color2}
 padding-left = 0
 padding-right = 0
 
-module-margin-left = 0
+module-margin-left = 4
 module-margin-right = 0
 
 font-2 = FontAwesome:fontformat=truetype:size=9;1
@@ -63,18 +66,18 @@ font-0 = San Francisco:fontformat=truetype:size= 9;1
 font-1 = monofur:fontformat=truetype:size= 9;1
 
 
-modules-left = i3 
-modules-center = cmus 
-modules-right = 
+modules-left = my-text-label voidi3 
+modules-center = date
+modules-right = temperature eth wifi 
 
-tray-position = right
-tray-padding = 9
-tray-transparent = false
-tray-offset-y = 0%
-tray-offset-x = 0%
-tray-maxsize = 18
-tray-detached = false
-tray-background = ${colors.my_background1}
+;tray-position = right
+;tray-padding = 9
+;tray-transparent = true
+;tray-offset-y = 0%
+;tray-offset-x = 0%
+;tray-maxsize = 18
+;tray-detached = false
+;tray-background = ${colors.my_background}
 
 wm-restack = i3
 
@@ -154,10 +157,6 @@ label-unfocused-background = ${colors.my_background1}
 label-urgent = " ● "
 label-urgent-foreground = ${colors.red}
 label-urgent-background = ${colors.my_background1}
-
-
-
-
 
 
 [module/date]
@@ -274,13 +273,13 @@ background = ${colors.my_background}
 foreground = ${colors.my_foreground}
 
 line-color = ${colors.my_background}
-line-size = 2
+line-size = 3
 
 spacing = 3
-padding-right = 4
-padding-left = 4
-module-margin-left = 0
-module-margin-right = 6
+padding-right = 3
+padding-left = 1
+module-margin-left = 1
+module-margin-right = 4
 
 font-0 = NotoSans-Regular:size=8;0
 font-1 = unifont:size=6;-3
@@ -289,31 +288,31 @@ font-3 = NotoSans-Regular:size=8;-1
 font-4 = MaterialIcons:size=10;-1
 font-5 = Termsynu:size=8:antialias=false;0
 
-modules-left = battery volume backlight filesystem 
-modules-center = date
+modules-left = powermenu uptime battery volume backlight 
+modules-center = cmus
 modules-right = cpu memory
 
 
 
-
+tray-position = right
+tray-padding = 9
+tray-transparent = true
+tray-offset-y = 0%
+tray-offset-x = 0%
+tray-maxsize = 18
+tray-detached = false
+tray-background = ${colors.my_background}
 
 
 [global/wm]
 margin-top = 5
-margin-bottom = 5
+margin-bottom = 3
 
 [module/xwindow]
 type = internal/xwindow
 label = %title%
 label-padding = 10
 label-foreground = ${colors.my_color8}
-
-
-
-
-
-
-
 
 [module/cpu]
 type = internal/cpu
@@ -347,7 +346,6 @@ ramp-coreload-7-font = 2
 ramp-coreload-7-foreground = #ff5555
 
 
-
 [module/memory]
 type = internal/memory
 format = <label> <bar-used>
@@ -366,7 +364,6 @@ bar-used-fill-font = 6
 bar-used-empty = ─
 bar-used-empty-font = 6
 bar-used-empty-foreground = #444444
-
 [module/filesystem]
 type = internal/fs
 mount-0 = /
@@ -392,6 +389,207 @@ interval = 1
 
 click-left = cmus-remote --pause
 click-right = cmus-remote --stop
+
+
+;--------------------- USER SCRIPTS----------------------
+
+[module/voidi3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+label-mode-padding = 2
+label-mode-foreground = #000
+label-mode-background = ${colors.my_background}
+
+label-focused = %index%
+label-focused-background = ${xrdb:color0}
+label-focused-underline = ${xrdb:color2}
+label-focused-padding = 2
+
+label-unfocused = %index%
+label-unfocused-padding = 2
+
+label-visible = %index%
+label-visible-background = ${xrdb:color0}
+label-visible-underline = ${colors.my_color3}
+label-visible-padding = 2
+
+label-urgent = %index%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+[module/eth]
+type = internal/network
+interface = eno1
+interval = 3.0
+
+format-connected-underline = ${xrdb:color2}
+format-connected-prefix = "  "
+format-connected-prefix-foreground = ${self.format-connected-underline}
+label-connected = %local_ip%
+
+;format-disconnected =
+format-disconnected = <label-disconnected>
+format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+label-disconnected = no eth
+label-disconnected-foreground = ${colors.my_foreground}
+
+
+[module/wlan]
+type = internal/network
+interface = wlo1
+interval = 3.0
+
+label-separator = |
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = ${xrdb:color5}
+;format-connected-underline = #9f78e1
+label-connected = %essid%
+
+;format-disconnected =
+format-disconnected = <label-disconnected>
+format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+label-disconnected = no wifi
+label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = ${colors.foreground-alt}
+
+
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp> <label>
+format-underline = ${xrdb:color1}
+;format-underline = #f50a4d
+format-warn = <ramp> <label-warn>
+format-warn-underline = ${self.format-underline}
+
+label = %temperature%
+label-warn = %temperature%
+label-warn-foreground = ${colors.alert}
+
+
+ramp-0 =  
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-foreground = ${self.format-underline}
+
+[module/wifi]
+type = internal/network
+interface = wlo1
+interval = 3.0
+
+format-connected = <label-connected>
+format-connected-prefix = "  "
+format-connected-prefix-foreground = ${self.format-connected-underline}
+format-connected-underline = #9f78e1
+
+label-connected = %essid%
+label-connected-maxlen = 12
+label-disconnected = "No Wifi"
+
+format-disconnected-prefix = "  "
+format-disconnected = <label-disconnected>
+format-disconnected-underline = ${self.format-connected-underline}
+format-disconnected-prefix-foreground = ${self.format-disconnected-underline}
+
+
+[module/powermenu]
+type = custom/menu
+
+format-spacing = 1
+format-underline = 	#ff8247
+
+label-open = "Power Menu %{F#ff8247}  %{F-} "
+
+label-open-foreground = ${colors.my_foreground}
+label-close = " Cancelar"
+label-close-foreground = ${colors.my_foreground}
+label-separator = |
+label-separator-foreground = ${colors.my_foreground}
+
+menu-0-0 = Reiniciar
+menu-0-0-exec = menu-open-1
+
+menu-0-1 = Desligar
+menu-0-1-exec = menu-open-2
+menu-0-2 = Suspender
+menu-0-2-exec = menu-open-3
+
+menu-0-3 = Bloquear
+menu-0-3-exec = betterlockscreen -l
+
+menu-0-4 = Sair |
+menu-0-4-exec = bspc quit; i3-msg exit
+
+menu-1-0 = Voltar
+menu-1-0-exec = menu-open-0
+
+menu-1-1 = Reiniciar |
+menu-1-1-exec = systemctl reboot
+
+menu-2-0 = Desligar
+menu-2-0-exec = systemctl poweroff
+
+menu-2-1 = Voltar |
+menu-2-1-exec = menu-open-0
+
+menu-3-0 = Suspender
+menu-3-0-exec = betterlockscreen --suspend
+
+menu-3-1 = Voltar |
+menu-3-1-exec = menu-open-0
+
+
+
+
+[module/uptime]
+type = custom/script
+interval = 30
+exec = ~/.config/polybar/uptime.sh
+label = %output%
+format = <label>
+format-suffix = "  "
+format-suffix-foreground =  #AC7BE3
+format-underline =  #AC7BE3
+
+
+
+[module/my-text-label]
+type = custom/text
+content = " %{F#7df059}  %{F-} Drake "
+content-foreground = ${colors.my_foreground}
+content-underline = #7df059
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

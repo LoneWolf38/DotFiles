@@ -474,6 +474,7 @@ gvfs-smb
 gvim
 gypsy
 gzip
+hamster-time-tracker
 harfbuzz
 harfbuzz-icu
 haskell-data-default
@@ -1191,6 +1192,7 @@ pacgraph
 package-query
 pacman
 pacman-mirrorlist
+pacutils
 pam
 pamac-aur
 pamac-tray-appindicator
@@ -1267,6 +1269,8 @@ perl-json
 perl-json-xs
 perl-libwww
 perl-locale-gettext
+perl-log-message
+perl-log-message-simple
 perl-lwp-mediatypes
 perl-lwp-protocol-https
 perl-mail-box
@@ -1292,6 +1296,7 @@ perl-sub-exporter-progressive
 perl-sub-install
 perl-sub-uplevel
 perl-term-readline-gnu
+perl-term-ui
 perl-test-pod
 perl-test-warn
 perl-text-charwidth
@@ -1616,6 +1621,7 @@ python2-urwid
 python2-wcwidth
 python2-webob
 python2-werkzeug
+python2-wnck
 python2-wxpython3
 python2-xdg
 python2-yaml
@@ -1847,6 +1853,7 @@ tracker-miners
 transmission-cli
 transmission-gtk
 tre
+trizen
 tslib
 ttf-dejavu
 ttf-material-icons

@@ -1,6 +1,7 @@
 [colors]
 ;My colors are set from .Xresources to match everything else
-my_background 	= ${xrdb:background}
+my_background1 	= ${xrdb:background}
+my_background = #00000000
 my_foreground 	= ${xrdb:foreground}
 my_color0	= ${xrdb:color0}
 my_color1	= ${xrdb:color1}
@@ -19,6 +20,18 @@ my_color13	= ${xrdb:color13}
 my_color14	= ${xrdb:color14}
 my_color15	= ${xrdb:color15}
 
+
+
+trans = #DA292b2e
+white = #eee
+grey = #444444
+pink = #d75f87
+blue = #4f97d7
+purple = #875faf
+green = #20ad80
+red = #ee3333
+
+
 [bar/main_bar]
 ;monitor = ${env:MONITOR:HDMI-1}
 monitor = ${env:MONITOR:eDP1}
@@ -30,7 +43,7 @@ radius = 0.0
 fixed-center = true
 
 
-background = ${colors.my_background}
+background = ${colors.my_background1}
 foreground =  ${colors.my_foreground}
 
 line-size = 2.5
@@ -46,12 +59,12 @@ module-margin-left = 0
 module-margin-right = 0
 
 font-2 = FontAwesome:fontformat=truetype:size=9;1
-font-0 = monofur:fontformat=truetype:size=11;1
-font-1 = monofur:fontformat=truetype:size=11;1
+font-0 = San Francisco:fontformat=truetype:size= 9;1
+font-1 = monofur:fontformat=truetype:size= 9;1
 
 
-modules-left = i3 xwindow
-modules-center = date 
+modules-left = i3 
+modules-center = cmus 
 modules-right = 
 
 tray-position = right
@@ -61,40 +74,90 @@ tray-offset-y = 0%
 tray-offset-x = 0%
 tray-maxsize = 18
 tray-detached = false
-tray-background = ${colors.my_background}
+tray-background = ${colors.my_background1}
 
 wm-restack = i3
 
 ;override-redirect = true
 
+;[module/i3]
+;type = internal/i3
+
+;label-unfocused-background = ${colors.my_background}
+;label-unfocused-foreground = ${colors.my_foreground}
+
+;label-mode = %mode%
+;label-mode-padding = 2
+;label-mode-background = ${colors.my_background}
+
+;label-focused = %index%
+;label-focused-foreground = ${colors.my_foreground}
+;label-focused-background = ${colors.my_background}
+;label-focused-underline = ${colors.my_foreground}
+;label-focused-padding = 2
+
+;label-unfocused = %index%
+;label-unfocused-padding = 2
+
+;label-visible = %index%
+;label-visible-underline = ${colors.my_foreground}
+;label-visible-padding = 4
+
+;label-urgent = %index%
+;label-urgent-foreground = ${colors.my_foreground}
+;label-urgent-background = ${colors.my_background}
+;label-urgent-underline = ${colors.my_foreground}
+;label-urgent-padding = 2
+
+
+
+[module/i3index]
+type = internal/i3
+format = <label-state>
+
+label-focused = "%name% "
+label-focused-foreground = ${colors.my_background}
+label-focused-background = ${colors.pink}
+
+label-unfocused =
+label-urgent =
+
 [module/i3]
 type = internal/i3
+format = <label-state><label-mode>
 
-label-unfocused-background = ${colors.my_background}
-label-unfocused-foreground = ${colors.my_foreground}
+index-sort = true
+enable-click = true
+enable-scroll = false
 
-label-mode = %mode%
-label-mode-padding = 2
-label-mode-background = ${colors.my_background}
+ws-icon-0 = 0;*
+ws-icon-default = ○
 
-label-focused = %index%
-label-focused-foreground = ${colors.my_foreground}
-label-focused-background = ${colors.my_background}
-label-focused-underline = ${colors.my_foreground}
-label-focused-padding = 2
+; Only show workspaces on the same output as the bar
+pin-workspaces = true
 
-label-unfocused = %index%
-label-unfocused-padding = 2
+label-mode = " %mode% "
+label-mode-foreground = ${colors.red}
+label-mode-background = ${colors.my_background1}
 
-label-visible = %index%
-label-visible-underline = ${colors.my_foreground}
-label-visible-padding = 4
+; focused = Active workspace on focused monitor
+label-focused = " ● "
+label-focused-foreground = ${colors.blue}
+label-focused-background = ${colors.my_background1}
 
-label-urgent = %index%
-label-urgent-foreground = ${colors.my_foreground}
-label-urgent-background = ${colors.my_background}
-label-urgent-underline = ${colors.my_foreground}
-label-urgent-padding = 2
+; unfocused = Inactive workspace on any monitor
+label-unfocused = " %icon% "
+label-unfocused-foreground = ${colors.my_color2}
+label-unfocused-background = ${colors.my_background1}
+
+; urgent = Workspace with urgency hint set
+label-urgent = " ● "
+label-urgent-foreground = ${colors.red}
+label-urgent-background = ${colors.my_background1}
+
+
+
+
 
 
 [module/date]
@@ -181,46 +244,6 @@ animation-charging-4 = 
 animation-charging-framerate = 750
 
 
-
-
-
-
-
-
-[module/powermenu]
-type = custom/menu
-
-format-padding = 5
-
-label-open = 
-label-close = 
-label-separator = |
-menu-0-0 = Logout
-menu-0-0-foreground = #fba922
-menu-0-0-exec = i3 quit -1
-menu-0-1 = Reboot
-menu-0-1-foreground = #fba922
-menu-0-1-exec = menu_open-1
-menu-0-2 = Power off
-menu-0-2-foreground = #fba922
-menu-0-2-exec = menu_open-2
-
-menu-1-0 = Cancel
-menu-1-0-foreground = #fba922
-menu-1-0-exec = menu_open-0
-menu-1-1 = Reboot
-menu-1-1-foreground = #fba922
-menu-1-1-exec = sudo shutdown -r
-
-menu-2-0 = Power off
-menu-2-0-foreground = #fba922
-menu-2-0-exec = sudo shutdown -h now
-menu-2-1 = Cancel
-menu-2-1-foreground = #fba922
-menu-2-1-exec = menu_open-0
-
-
-
 [module/backlight]
 type = internal/xbacklight
 format = <ramp> <bar>
@@ -255,6 +278,7 @@ line-size = 2
 
 spacing = 3
 padding-right = 4
+padding-left = 4
 module-margin-left = 0
 module-margin-right = 6
 
@@ -265,8 +289,8 @@ font-3 = NotoSans-Regular:size=8;-1
 font-4 = MaterialIcons:size=10;-1
 font-5 = Termsynu:size=8:antialias=false;0
 
-modules-left = powermenu battery volume backlight 
-modules-center = cmus
+modules-left = battery volume backlight filesystem 
+modules-center = date
 modules-right = cpu memory
 
 
@@ -280,7 +304,7 @@ margin-bottom = 5
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+label = %title%
 label-padding = 10
 label-foreground = ${colors.my_color8}
 

@@ -134,6 +134,7 @@ refresh()
 dotupdate()
 {
   cp ~/.config/i3/config ~/Dotfiles/DotFiles/.config/i3/config
+  cp ~/.config/polybar/config ~/Dotfiles/DotFiles/.config/polybar/config
 }
 
 

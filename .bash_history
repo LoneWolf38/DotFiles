@@ -4017,3 +4017,87 @@ ping google.com
 clear
 ping google.com
 clear
+ping google.com
+clear
+reload
+tint2
+vim bin/km
+dotup "added more files"
+scripts/KonfigManager/
+git add -A
+git commit -m "Added new files"
+gitup
+cd
+less /etc/rc.local
+find -f rc.local
+find / rc.local
+man find
+cd /etc/init.d/
+systemctl status rc-local.service
+nm
+ls hw
+lsbhw
+ping google.com
+man ls
+pinstall lshw
+dotupdate
+cbr
+refresh
+dotup
+dotup "new packages added"
+vim ~/scripts/KonfigManager/pkgs/paclist 
+paclist
+clear
+lshw
+c
+ci
+cd .config/polybar/
+ll
+vim config
+man find
+cd /etc/init.d/
+systemctl status rc-local.service
+tint2
+vim bin/km
+dotup "added more files"
+scripts/KonfigManager/
+git add -A
+git commit -m "Added new files"
+gitup
+cd
+less /etc/rc.local
+find -f rc.local
+find / rc.local
+man find
+cd /etc/init.d/
+systemctl status rc-local.service
+nm
+ls hw
+lsbhw
+man ls
+pinstall lshw
+dotup
+dotup "new packages added"
+vim ~/scripts/KonfigManager/pkgs/paclist 
+paclist
+lshw
+c
+cd .config/polybar/
+ll
+nm-applet &
+ping google.com
+pacmac-tray &
+pamac-tray &
+~/.config/polybar/
+l
+cmus-remote -c status
+vim cmus.sh 
+clea
+cmus-remote -C status
+ci
+vim config
+cbr
+refresh
+reload
+dotupdate
+clear

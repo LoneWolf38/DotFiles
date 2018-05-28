@@ -48,4 +48,6 @@ A collection of my configs for backing up or for a new fresh linux installation.
 ###### Updated i3 
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/Screenshots/revamped.png)
 
+###### New Setup 
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/Screenshots/new_setup.png)
 

@@ -4602,3 +4602,48 @@ yinstall nerd-fonts-complete
 ci
 ping google.com
 clear
+pwd
+sudo cp 95-usb.rule /etc/udev/rules.d/
+c
+ip link
+ifname
+vnstat
+killall conky
+yaourt nerdfont
+yaourt nerdfonts
+yaourt nerd-fonts
+yinstall nerd-fonts-complete
+ci
+d
+cd
+cd Projects/
+cd 
+cd lonewolf38.github.io/
+ll
+git pull
+ip 
+ip l
+ping google.com
+ifconfig
+clear
+yaourt nerdfonts
+yaourt nerd-fonts
+yinstall nerd-fonts-complete
+ci
+nm
+ping google.com
+dotup "new commit"
+cd
+.config/polybar/
+ll
+vim config
+clear
+refresh
+reload
+reload
+ci
+.config/polybar/
+ll
+vim config
+.config/polybar/
+vim config

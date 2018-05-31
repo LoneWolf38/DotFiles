@@ -49,7 +49,7 @@ fixed-center = false
 background = ${colors.my_background}
 foreground =  ${colors.my_foreground}
 
-line-size = 4.5
+line-size = 2.5
 line-color = ${colors.white}
 
 border-size = 0
@@ -167,20 +167,22 @@ pin-workspaces = true
 [module/date]
 type = internal/date
 interval = 5
-
 date =
 date-alt = "%d/%m/%Y"
-
 time = "%a %b %d, %I:%M %p "
-
 time-alt = %H:%M
+;format-prefix-foreground = ${colors.my_foreground}
+;format-underline =
+;label = %date% %time%
 
-format-prefix-foreground = ${colors.my_foreground}
-format-underline =
-
+format = <label>
+format-suffix = "  "
+format-suffix-foreground = ${self.format-underline}
+format-foreground = ${colors.my_foreground}
+format-underline = #00ff7f
 
 label = %date% %time%
-
+label-font = 10
 
 [module/volume]
 type = internal/volume
@@ -250,25 +252,42 @@ animation-charging-framerate = 750
 
 [module/backlight]
 type = internal/xbacklight
-format = <ramp> <bar>
+;format = <ramp> <bar>
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+;ramp-0 = 
+;ramp-1 = 
+;ramp-2 = 
+
+;bar-width = 10
+;bar-indicator = |
+;bar-indicator-font = 3
+;bar-indicator-foreground = #ff
+;bar-fill = ─
+;bar-fill-font = 3
+;bar-fill-foreground = #c9665e
+;bar-empty = ─
+;bar-empty-font = 3
+;bar-empty-foreground = #44
+
+format = <label> <bar>
+label = 
+label-foreground = #c8f059
 
 bar-width = 10
-bar-indicator = |
-bar-indicator-font = 3
+bar-indicator = 
 bar-indicator-foreground = #ff
-bar-fill = ─
-bar-fill-font = 3
-bar-fill-foreground = #c9665e
-bar-empty = ─
-bar-empty-font = 3
-bar-empty-foreground = #44
+bar-indicator-font = 2
+bar-fill = ""
+bar-fill-font = 1
+bar-fill-foreground = #c8f059
+bar-empty = ""
+bar-empty-font = 1
+bar-empty-foreground = #555
+
 
 
 [bar/bottom]
+;monitor = HDMI
 monitor = eDP-1
 bottom = true
 width = 100%
@@ -278,7 +297,7 @@ background = ${colors.my_background}
 foreground = ${colors.my_foreground}
 
 line-color = ${colors.my_background}
-line-size = 3
+line-size = 2
 
 spacing = 3
 padding-right = 3
@@ -324,6 +343,9 @@ type = internal/cpu
 interval = 0.5
 format = <label> <ramp-coreload>
 label = CPU
+format-prefix = " "
+format-prefix-foreground = ${self.format-underline}
+format-underline = #D6AA3F
 
 ramp-coreload-0 = ▁
 ramp-coreload-0-font = 2
@@ -355,6 +377,10 @@ ramp-coreload-7-foreground = #ff5555
 type = internal/memory
 format = <label> <bar-used>
 label = RAM
+format-prefix = "  "
+format-prefix-foreground = ${self.format-underline}
+format-underline = #D6AA3F
+
 
 bar-used-width = 30
 bar-used-foreground-0 = #aaff77
@@ -369,6 +395,8 @@ bar-used-fill-font = 6
 bar-used-empty = ─
 bar-used-empty-font = 6
 bar-used-empty-foreground = #444444
+
+
 [module/filesystem]
 type = internal/fs
 mount-0 = /

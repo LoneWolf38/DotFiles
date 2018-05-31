@@ -4647,3 +4647,67 @@ ll
 vim config
 .config/polybar/
 vim config
+git pull
+ip 
+ip l
+ifconfig
+yaourt nerdfonts
+yaourt nerd-fonts
+yinstall nerd-fonts-complete
+dotup "new commit"
+vim config
+refresh
+reload
+reload
+vim config
+vim config
+nm
+c
+ci
+.config/polybar/
+ip link
+ping google.com
+cd Projects/
+cd Aureola/
+cd lazuli
+cd ../alva/
+ll
+./install-conky.sh 
+cd
+clear
+dotup "new setup"
+nm
+ping google.com
+clear
+ll
+./install-conky.sh 
+cd
+dotup "new setup"
+nm
+ping google.com
+clear
+ssh -i jarjarbinks.pem ubuntu@13.232.71.152
+vim jarjarbinks.pem 
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+ping google.com
+ssh -i jarjarbinks.pem ubuntu@13.232.71.152
+clear
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+ping google.com
+clear
+ping google.com
+ci
+cbr
+refresh
+reload 
+dotupdate
+cpo
+clear
+cpo
+P
+voidrice
+voidrice/
+cd .config/polybar/
+ll
+vim config 
+clear

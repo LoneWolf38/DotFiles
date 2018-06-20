@@ -4711,3 +4711,199 @@ cd .config/polybar/
 ll
 vim config 
 clear
+ifconfig
+yaourt nerdfonts
+yaourt nerd-fonts
+yinstall nerd-fonts-complete
+dotup "new commit"
+vim config
+vim config
+vim config
+c
+ci
+.config/polybar/
+ip link
+cd Projects/
+cd Aureola/
+cd lazuli
+cd ../alva/
+ll
+./install-conky.sh 
+dotup "new setup"
+ll
+./install-conky.sh 
+dotup "new setup"
+ssh -i jarjarbinks.pem ubuntu@13.232.71.152
+vim jarjarbinks.pem 
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+ssh -i jarjarbinks.pem ubuntu@13.232.71.152
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+nm
+ping google.com
+ls
+vim .config/ranger/rc.conf 
+reload
+cpo
+refresh
+dotupdate
+dotup "polybar update"
+dotup "screeshot new"
+cd
+clear
+ssh -i jarjarbinks.pem ubuntu@13.127.149.26
+ssh -i jarjarbinks.pem ubuntu@35.154.127.232
+ssh -i jarjarbinks.pem ubuntu@35.154.127.232
+ssh -i jarjarbinks.pem ubuntu@35.154.127.232
+dotup "new setup"
+nm
+ssh -i jarjarbinks.pem ubuntu@13.232.71.152
+vim jarjarbinks.pem 
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+ssh -i jarjarbinks.pem ubuntu@13.232.71.152
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+dot
+l
+cd .config/
+ll
+find -ls
+cd
+tree .
+man tree
+man view
+view alcomnds 
+clear
+ping google.com
+c;ear
+vim jarjarbinks.pem 
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+ssh -i jarjarbinks.pem ubuntu@13.232.71.152
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+ls
+vim .config/ranger/rc.conf 
+reload
+cpo
+refresh
+dotupdate
+dotup "polybar update"
+dotup "screeshot new"
+ssh -i jarjarbinks.pem ubuntu@13.127.149.26
+ssh -i jarjarbinks.pem ubuntu@35.154.127.232
+ssh -i jarjarbinks.pem ubuntu@35.154.127.232
+ssh -i jarjarbinks.pem ubuntu@35.154.127.232
+dotup "new setup"
+ssh -i jarjarbinks.pem ubuntu@13.232.71.152
+vim jarjarbinks.pem 
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+ssh -i jarjarbinks.pem ubuntu@13.232.71.152
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+dot
+l
+cd .config/
+find -ls
+tree .
+man tree
+man view
+view alcomnds 
+c;ear
+echo "yes | no" | demu
+echo "yes | no" | dmenu
+ci
+.config/i3/
+view prompt.sh 
+echo -e no\nyes | dmenu
+echo -e "no\nyes" | dmenu
+man echo 
+nm
+ping google.com
+pinstall libx265
+pinstall ffmpg
+pinstall ffmpeg
+sudo pacman -S ffmpeg
+sudo pacman -R libx265.so=151-64
+sudo pacman -R libx265.
+sudo pacman -R libx265
+cd
+sudo pacman -R ffmpeg
+yaourt ffmpeg
+yaourt x265
+sudo pacman -R x265
+sudo pacman -S x265
+sudo pacman -R ffmpeg2.8
+sudo pacman -S ffmpeg2.8
+cl
+c
+update
+scripts/KonfigManager/
+cd bin
+ll
+./km
+vim km 
+clear
+ssh -i jarjarbinks.pem ubuntu@ec2-13-232-71-152.ap-south-1.compute.amazonaws.com
+l
+cd .config/
+find -ls
+cd
+tree .
+man tree
+man view
+view alcomnds 
+ping google.com
+c;ear
+cd scripts/KonfigManager/
+dot
+ll 
+ls
+ls -f
+ls -f
+ll
+ll | awk '{print $9}'
+ll | awk '{print $9}' | less
+ll #.| awk '{print $9}' | less
+ll #.*| awk '{print $9}' | less
+ll -A
+ls -A
+clear
+man ls
+nm
+ll -A
+ls -A
+man ls
+man tree
+tree -F
+tree
+x
+c
+tree ./Projects/
+P
+tree .
+tree 
+nm
+ping google.com
+clear
+htop
+tree 
+ping google.com
+htop
+nm
+cd CV/
+cd examples/
+clear
+ll
+xelatex cv.tex
+xelatex cv.tex
+nm
+ping google.com
+c
+nm
+ping google.com
+c
+nm
+ping google.com
+ssh -i jarjarbinks.pem ubuntu@ec2-13-127-156-90.ap-south-1.compute.amazonaws.com
+ps -aux
+htop
+clear
+htop
+clear
+ci

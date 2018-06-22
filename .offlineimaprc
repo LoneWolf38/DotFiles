@@ -15,7 +15,7 @@ remoterepository = gmail-remote
 [Repository gmail-remote]
 type = Gmail
 remoteuser = sudodeba97.iiitbbsr@gmail.com
-remotepass = ccna_007
+remotepass = ********
 #Note that the line below will not sync Gmail's redundant "All Mail" box. You can add other inboxes here you don't want to sync.
 folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt
@@ -34,7 +34,7 @@ remoterepository = gmail-remote
 [Repository gmail-remote]
 type = Gmail
 remoteuser = b516016@iiit-bh.ac.in
-remotepass = ccna_007
+remotepass = *********
 #Note that the line below will not sync Gmail's redundant "All Mail" box
 folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt

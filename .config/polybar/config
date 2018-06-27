@@ -73,7 +73,7 @@ font-7 = Termsynu:size=8:antialias=false;0
 
 modules-left = my-text-label voidi3 
 modules-center = date
-modules-right =  temperature eth wifi battery1 
+modules-right =  netstat temperature eth wifi battery1 
 
 ;tray-position = right
 ;tray-padding = 9
@@ -469,6 +469,13 @@ format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
 label-disconnected = no eth
 label-disconnected-foreground = ${colors.my_foreground}
+
+
+[module/netstat]
+type = internal/network
+interface = eno1
+interval = 3.0
+label-connected = %{F#ff0000} %{F-}%upspeed% %{F#00ff00} %{F-}%downspeed%
 
 
 [module/wlan]

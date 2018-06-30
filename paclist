@@ -235,7 +235,6 @@ fbreader
 fcgi
 feh
 ffmpeg
-ffmpeg2.8
 fftw
 fiddler
 figlet
@@ -484,7 +483,6 @@ haskell-data-default-instances-dlist
 haskell-data-default-instances-old-locale
 haskell-dlist
 haskell-extensible-exceptions
-haskell-mtl
 haskell-old-locale
 haskell-old-time
 haskell-random
@@ -827,7 +825,7 @@ libkeybinder2
 libkeybinder3
 libksba
 liblangtag
-liblastfm
+liblastfm-qt4
 libldap
 liblouis
 liblqr
@@ -1361,7 +1359,7 @@ pipewire
 pixman
 pixz
 pkcs11-helper
-pkg-config
+pkgconf
 playerctl
 plotutils
 plymouth
@@ -1783,6 +1781,7 @@ sudo
 suil
 suitesparse
 super-flat-remix-icon-theme
+surf
 sushi
 swell-foop
 swig

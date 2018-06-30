@@ -51,3 +51,6 @@ A collection of my configs for backing up or for a new fresh linux installation.
 ###### New Setup 
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/Screenshots/new_setup.png)
 
+
+###### Some New Update
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/Screenshots/surf.png)

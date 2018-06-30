@@ -8,7 +8,7 @@ shopt -s cmdhist
 shopt -s expand_aliases
 shopt -s extglob 
 
-
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/opt/depot_tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/drake/.gem/ruby/2.5.0/bin 
 set -o vi
 stty -ixon
 export LANG=en_US.UTF-8

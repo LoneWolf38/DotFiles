@@ -1,4 +1,6 @@
 [global_config]
+  title_font = SauceCodePro Nerd Font Mono Semi-Bold 9
+  title_use_system_font = False
 [keybindings]
 [layouts]
   [[default]]

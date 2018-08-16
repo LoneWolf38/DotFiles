@@ -13,6 +13,7 @@ alsa-utils
 amarok
 ansible
 anthy
+aom
 apache
 apm
 appstream-glib
@@ -25,6 +26,7 @@ archey3
 archlinux-keyring
 argon2
 argyllcms
+aria2
 asciidoc
 asciinema
 asio
@@ -74,6 +76,8 @@ boost
 boost-libs
 botan1.10
 brasero
+breeze
+breeze-icons
 brltty
 broadcom-wl-dkms
 brotli
@@ -202,6 +206,7 @@ e2fsprogs
 ebook-tools
 ecryptfs-utils
 ed
+editorconfig-core-c
 efibootmgr
 efivar
 electron
@@ -259,6 +264,7 @@ folks
 fontconfig
 fortune-mod
 four-in-a-row
+frameworkintegration
 freerdp
 freetds
 freetype2
@@ -267,6 +273,7 @@ fribidi
 fuse-common
 fuse2
 fuse3
+fzf
 gamin
 garcon
 gavl
@@ -394,6 +401,8 @@ godep
 gom
 goocanvas
 googler
+gpart
+gparted
 gperf
 gperftools
 gpgme
@@ -556,6 +565,7 @@ jsoncpp
 jsonrpc-glib
 jump-git
 kactivities
+kactivitymanagerd
 karchive
 kauth
 kbd
@@ -571,6 +581,7 @@ kdbusaddons
 kde-cli-tools
 kdebase-runtime
 kdeclarative
+kdecoration
 kded
 kdelibs
 kdelibs4support
@@ -582,6 +593,7 @@ keyutils
 kfilemetadata
 kglobalaccel
 kguiaddons
+kholidays
 khtml
 ki18n
 kiconthemes
@@ -589,10 +601,12 @@ kidletime
 kinit
 kio
 kio-extras
+kirigami2
 kitemmodels
 kitemviews
 kjobwidgets
 kjs
+kjsembed
 kmod
 knewstuff
 knotifications
@@ -601,12 +615,16 @@ kpackage
 kparts
 kpty
 krb5
+krunner
+kscreenlocker
 kservice
+ktexteditor
 ktextwidgets
-kuiserver
 kunitconversion
 kwallet
+kwayland
 kwidgetsaddons
+kwin
 kwindowsystem
 kxmlgui
 kyotocabinet
@@ -619,6 +637,7 @@ lcms2
 ldb
 ldns
 ldoc
+lensfun
 less
 leveldb
 lib32-acl
@@ -741,6 +760,7 @@ libdc1394
 libdca
 libdiscid
 libdmapsharing
+libdmtx
 libdmx
 libdnf
 libdrm
@@ -824,6 +844,7 @@ libkate
 libkeybinder2
 libkeybinder3
 libksba
+libksysguard
 liblangtag
 liblastfm-qt4
 libldap
@@ -893,6 +914,7 @@ libpst
 libpulse
 libpurple
 libpwquality
+libqalculate
 libquicktime
 libquvi
 libquvi-scripts
@@ -1022,6 +1044,10 @@ libzapojit
 libzip
 libzmf
 licenses
+lightdm
+lightdm-gtk-greeter
+lightdm-webkit-theme-aether
+lightdm-webkit2-greeter
 lightsoff
 lilv
 lilypond
@@ -1074,10 +1100,12 @@ meson
 metacity
 metis
 midori
+milou
 minizip
 mjpegtools
 mkinitcpio
 mkinitcpio-busybox
+mlocate
 mobile-broadband-provider-info
 moc
 mod_dnssd
@@ -1113,6 +1141,7 @@ neomutt
 neomutt-git
 neon
 neovim
+nerd-fonts-source-code-pro
 net-snmp
 net-tools
 netcdf
@@ -1150,6 +1179,7 @@ numactl
 numix-gtk-theme
 numix-icon-theme-git
 nutty-bzr
+oath-toolkit
 obconf
 oblogout
 obmenu
@@ -1245,7 +1275,6 @@ perl-file-which
 perl-gd
 perl-gnome2-wnck
 perl-gtk2-imageview
-perl-gtk2-unique
 perl-guard
 perl-html-form
 perl-html-parser
@@ -1360,6 +1389,9 @@ pixman
 pixz
 pkcs11-helper
 pkgconf
+plasma-framework
+plasma-integration
+plasma-workspace
 playerctl
 plotutils
 plymouth
@@ -1390,10 +1422,12 @@ powerline-vim
 powerline2
 powertop
 ppp
+prison
 procps-ng
 progsreiserfs
 protobuf
 protobuf-c
+pscircle-git
 psmisc
 pstoedit
 pulseaudio
@@ -1503,6 +1537,7 @@ python-scipy
 python-setuptools
 python-simplejson
 python-sip
+python-sip-pyqt5
 python-six
 python-snowballstemmer
 python-sphinx
@@ -1529,17 +1564,22 @@ python2-backports.shutil_get_terminal_size
 python2-backports.unittest_mock
 python2-bcrypt
 python2-beaker
+python2-beautifulsoup4
+python2-cachecontrol
 python2-cairo
 python2-cffi
 python2-chardet
 python2-cheroot
 python2-cherrypy
 python2-click
+python2-colorama
 python2-colorlog
 python2-crypto
 python2-cryptography
 python2-dbus
 python2-decorator
+python2-distlib
+python2-distro
 python2-distutils-extra
 python2-dropbox
 python2-ecdsa
@@ -1553,6 +1593,7 @@ python2-gobject
 python2-gobject2
 python2-greenlet
 python2-grequests
+python2-html5lib
 python2-i3-py
 python2-idna
 python2-iniparse
@@ -1561,6 +1602,8 @@ python2-jaraco
 python2-jinja
 python2-jose
 python2-keybinder2
+python2-lockfile
+python2-logutils
 python2-m2crypto
 python2-mako
 python2-markupsafe
@@ -1589,6 +1632,7 @@ python2-polib
 python2-portend
 python2-powerline
 python2-prettytable
+python2-progress
 python2-prompt_toolkit
 python2-psutil
 python2-ptyprocess
@@ -1604,8 +1648,12 @@ python2-pyopenssl
 python2-pyparsing
 python2-pysocks
 python2-pysqlite
+python2-pytoml
 python2-pytz
+python2-repoze.lru
 python2-requests
+python2-retrying
+python2-routes
 python2-rsa
 python2-setuptools
 python2-singledispatch
@@ -1616,8 +1664,11 @@ python2-trollius
 python2-typing
 python2-urllib3
 python2-urwid
+python2-waitress
 python2-wcwidth
+python2-webencodings
 python2-webob
+python2-webtest
 python2-werkzeug
 python2-wnck
 python2-wxpython3
@@ -1634,13 +1685,18 @@ qemu-block-iscsi
 qemu-block-rbd
 qjson
 qpdf
+qqc2-desktop-style
 qqwing
+qrencode
 qt4
 qt5-base
 qt5-declarative
+qt5-graphicaleffects
 qt5-imageformats
 qt5-location
 qt5-multimedia
+qt5-quickcontrols
+qt5-quickcontrols2
 qt5-script
 qt5-sensors
 qt5-serialport
@@ -1738,7 +1794,6 @@ sgml-common
 shadow
 shared-color-targets
 shared-mime-info
-shutter
 siji-git
 simplescreenrecorder
 sip
@@ -1785,6 +1840,7 @@ surf
 sushi
 swell-foop
 swig
+syntax-highlighting
 sysfsutils
 sysprof
 sysstat
@@ -1828,6 +1884,7 @@ texlive-publishers
 texlive-science
 texmaker
 thin-provisioning-tools
+threadweaver
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -1855,12 +1912,16 @@ tre
 trizen
 tslib
 ttf-dejavu
+ttf-hack
 ttf-material-icons
 ttf-monofur
+ttf-opensans
 ttf-unifont
+tty-clock
 twolame
 tzdata
 uchardet
+udftools
 udisks2
 ufw
 ufw-extras
@@ -1935,6 +1996,7 @@ vnstat
 volume_key
 vte-common
 vte3
+vtop
 vulkan-icd-loader
 w3m
 wavpack

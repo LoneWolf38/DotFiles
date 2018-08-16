@@ -7,7 +7,7 @@ shopt -s histappend
 shopt -s cmdhist  
 shopt -s expand_aliases
 shopt -s extglob 
-
+export EDITOR=vim
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/opt/depot_tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/drake/.gem/ruby/2.5.0/bin 
 set -o vi
 stty -ixon
@@ -41,7 +41,8 @@ alias wspeed="speedometer -r wlo1"
 alias ping="ping -c 5"
 alias pinstall="sudo pacman -S"
 alias yinstall="yaourt -S"
-
+alias web="cd ~/lonewolf38.github.io"
+alias res="cd ~/CV"
 
 #Directory aliases
 alias h="cd ~ && ls -a"
@@ -112,15 +113,10 @@ remindme() {
 
 welcome()
 {
-  case $1 in 
-    "" | " ")
   toilet -F metal -t -f mono12 "Welcome ${USER}"
-    ;;
-  r)
-    toilet -F rainbow -t -f mono12 "Welcome ${USER}"
-    ;;
-esac
   espeak "WELCOME SIR" &>/dev/null
+  sleep 20s 
+
 }
 
 
@@ -132,12 +128,20 @@ refresh()
   pacman -Qq > ~/Dotfiles/DotFiles/paclist
 }
 
-dotupdate()
+update-config()
 {
-  cp ~/.config/i3/config ~/Dotfiles/DotFiles/.config/i3/config
-  cp ~/.config/polybar/config ~/Dotfiles/DotFiles/.config/polybar/config
-}
+  cp ~/.config/i3/* ~/Dotfiles/DotFiles/.config/i3/.
+  cp ~/.config/polybar/* ~/Dotfiles/DotFiles/.config/polybar/.
+  cp ~/.config/asciinema/* ~/Dotfiles/DotFiles/.config/asciinema/.
+  cp ~/.config/cava/* ~/Dotfiles/DotFiles/.config/cava/.
+  cp ~/.config/dunst/* ~/Dotfiles/DotFiles/.config/dunst/.
+  cp ~/.config/gtk-2.0/* ~/Dotfiles/DotFiles/.config/gtk-2.0
+  cp ~/.config/gtk-3.0/* ~/Dotfiles/DotFiles/.config/gtk-3.0
+  cp ~/.config/terminator/* ~/Dotfiles/DotFiles/.config/terminator/.
+  cp ~/.tmux.conf ~/Dotfiles/DotFiles/.tmux.conf
+  cp ~/.tmux.conf.local ~/Dotfiles/DotFiles/.tmux.conf.local
 
+}
 
 
 

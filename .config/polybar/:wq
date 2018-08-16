@@ -36,8 +36,8 @@ red = #ee3333
 
 
 [bar/main_bar]
-;monitor = ${env:MONITOR:HDMI-1}
-monitor = ${env:MONITOR:eDP1}
+monitor = ${env:MONITOR:HDMI-1}
+;monitor = ${env:MONITOR:eDP1}
 width = 100%
 height = 20
 offset-x = 0
@@ -73,7 +73,7 @@ font-7 = Termsynu:size=8:antialias=false;0
 
 modules-left = my-text-label voidi3 
 modules-center = date
-modules-right =  netstat temperature eth wifi battery1 
+modules-right =  temperature eth wifi battery1 
 
 ;tray-position = right
 ;tray-padding = 9
@@ -167,22 +167,20 @@ pin-workspaces = true
 [module/date]
 type = internal/date
 interval = 5
+
 date =
 date-alt = "%d/%m/%Y"
-time = "%a %b %d, %I:%M %p "
-time-alt = %H:%M
-;format-prefix-foreground = ${colors.my_foreground}
-;format-underline =
-;label = %date% %time%
 
-format = <label>
-format-suffix = "  "
-format-suffix-foreground = ${self.format-underline}
-format-foreground = ${colors.my_foreground}
-format-underline = #00ff7f
+time = "%a %b %d, %I:%M %p "
+
+time-alt = %H:%M
+
+format-prefix-foreground = ${colors.my_foreground}
+format-underline =
+
 
 label = %date% %time%
-label-font = 10
+
 
 [module/volume]
 type = internal/volume
@@ -252,42 +250,25 @@ animation-charging-framerate = 750
 
 [module/backlight]
 type = internal/xbacklight
-;format = <ramp> <bar>
+format = <ramp> <bar>
 
-;ramp-0 = 
-;ramp-1 = 
-;ramp-2 = 
-
-;bar-width = 10
-;bar-indicator = |
-;bar-indicator-font = 3
-;bar-indicator-foreground = #ff
-;bar-fill = ─
-;bar-fill-font = 3
-;bar-fill-foreground = #c9665e
-;bar-empty = ─
-;bar-empty-font = 3
-;bar-empty-foreground = #44
-
-format = <label> <bar>
-label = 
-label-foreground = #c8f059
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 
 bar-width = 10
-bar-indicator = 
+bar-indicator = |
+bar-indicator-font = 3
 bar-indicator-foreground = #ff
-bar-indicator-font = 2
-bar-fill = ""
-bar-fill-font = 1
-bar-fill-foreground = #c8f059
-bar-empty = ""
-bar-empty-font = 1
-bar-empty-foreground = #555
-
+bar-fill = ─
+bar-fill-font = 3
+bar-fill-foreground = #c9665e
+bar-empty = ─
+bar-empty-font = 3
+bar-empty-foreground = #44
 
 
 [bar/bottom]
-;monitor = HDMI
 monitor = eDP-1
 bottom = true
 width = 100%
@@ -343,9 +324,6 @@ type = internal/cpu
 interval = 0.5
 format = <label> <ramp-coreload>
 label = CPU
-format-prefix = " "
-format-prefix-foreground = ${self.format-underline}
-format-underline = #D6AA3F
 
 ramp-coreload-0 = ▁
 ramp-coreload-0-font = 2
@@ -377,10 +355,6 @@ ramp-coreload-7-foreground = #ff5555
 type = internal/memory
 format = <label> <bar-used>
 label = RAM
-format-prefix = "  "
-format-prefix-foreground = ${self.format-underline}
-format-underline = #D6AA3F
-
 
 bar-used-width = 30
 bar-used-foreground-0 = #aaff77
@@ -395,8 +369,6 @@ bar-used-fill-font = 6
 bar-used-empty = ─
 bar-used-empty-font = 6
 bar-used-empty-foreground = #444444
-
-
 [module/filesystem]
 type = internal/fs
 mount-0 = /
@@ -469,13 +441,6 @@ format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
 label-disconnected = no eth
 label-disconnected-foreground = ${colors.my_foreground}
-
-
-[module/netstat]
-type = internal/network
-interface = wlo1
-interval = 3.0
-label-connected = %{F#ff0000} %{F-}%upspeed% %{F#00ff00} %{F-}%downspeed%
 
 
 [module/wlan]
@@ -612,7 +577,7 @@ format-underline =  #AC7BE3
 
 [module/my-text-label]
 type = custom/text
-content = " %{F#7df059}  %{F-}Drake "
+content = " %{F#7df059}  %{F-} Drake "
 content-foreground = ${colors.my_foreground}
 content-underline = #7df059
 

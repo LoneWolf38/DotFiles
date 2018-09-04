@@ -88,7 +88,7 @@ mode "resize" {
 # Startup Scripts
 
 exec --no-startup-id dunst
-exec_always feh --bg-scale $HOME/Dotfiles/DotFiles/wallhaven-32558.jpg
+exec_always feh --bg-scale $HOME/Dotfiles/DotFiles/Background/wallhaven-32558.jpg
 exec --no-startup-id exec synclient TouchpadOff=0
 exec --no-startup-id /home/drake/Dotfiles/DotFiles/lock.sh -u /home/drake/Dotfiles/DotFiles/Background/Wallpaper.jpg
 exec thunar
@@ -98,8 +98,8 @@ exec_always compton -f --config $HOME/.config/compton.conf
 exec --no-startup-id nm-applet
 exec --no-startup-id pamac-tray
 bindsym $mod+c exec /home/drake/.config/i3/conky_start.sh
-exec terminator -e tmux
-
+exec terminator
+bindsym $mod+b terminator -e tmux new-window -n "welcome" -s "welcome" 'welcome'
 # For i3-gaps
 gaps inner 8
 gaps outer 8

@@ -54,3 +54,11 @@ A collection of my configs for backing up or for a new fresh linux installation.
 
 ###### Some New Update
 ![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/Screenshots/surf.png)
+
+
+###### New Setup with wallpaper change
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/Screenshots/new_setup2.png)
+
+###### Tmux Setup
+![Screenshot](https://raw.githubusercontent.com/LoneWolf38/DotFiles/master/Screenshots/tmux_setup.png)
+

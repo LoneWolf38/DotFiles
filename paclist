@@ -235,6 +235,7 @@ expat
 faac
 faad2
 fakeroot
+fakeuser-git
 farstream
 fbreader
 fcgi
@@ -1425,6 +1426,7 @@ ppp
 prison
 procps-ng
 progsreiserfs
+proot-3.2.1
 protobuf
 protobuf-c
 pscircle-git

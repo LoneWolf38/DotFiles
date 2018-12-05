@@ -55,7 +55,7 @@ line-color = ${colors.white}
 border-size = 0
 border-color = ${colors.my_color2}
 
-padding-left = 0
+padding-left = 2
 padding-right = 2
 
 module-margin-left = 4
@@ -177,9 +177,8 @@ time-alt = %H:%M
 
 format = <label>
 format-suffix = "  "
-format-suffix-foreground = ${self.format-underline}
+format-suffix-foreground = #00ff7f 
 format-foreground = ${colors.my_foreground}
-format-underline = #00ff7f
 
 label = %date% %time%
 label-font = 10
@@ -312,7 +311,7 @@ font-3 = NotoSans-Regular:size=8;-1
 font-4 = MaterialIcons:size=10;-1
 font-5 = Termsynu:size=8:antialias=false;0
 
-modules-left = powermenu uptime backlight volume1
+modules-left = uptime backlight volume1
 modules-center = cmus
 modules-right = cpu memory
 
@@ -344,8 +343,8 @@ interval = 0.5
 format = <label> <ramp-coreload>
 label = CPU
 format-prefix = " "
-format-prefix-foreground = ${self.format-underline}
-format-underline = #D6AA3F
+format-prefix-foreground = #D6AA3F 
+;format-underline = #D6AA3F
 
 ramp-coreload-0 = ▁
 ramp-coreload-0-font = 2
@@ -378,8 +377,8 @@ type = internal/memory
 format = <label> <bar-used>
 label = RAM
 format-prefix = "  "
-format-prefix-foreground = ${self.format-underline}
-format-underline = #D6AA3F
+format-prefix-foreground = #D6AA3F 
+;format-underline = #D6AA3F
 
 
 bar-used-width = 30
@@ -458,14 +457,14 @@ type = internal/network
 interface = eno1
 interval = 3.0
 
-format-connected-underline = ${xrdb:color2}
+;format-connected-underline = ${xrdb:color2}
 format-connected-prefix = "  "
-format-connected-prefix-foreground = ${self.format-connected-underline}
+format-connected-prefix-foreground = ${xrdb:color2} 
 label-connected = %local_ip%
 
 ;format-disconnected =
 format-disconnected = <label-disconnected>
-format-disconnected-underline = ${self.format-connected-underline}
+;format-disconnected-underline = ${xrdb:color2} 
 ;label-disconnected = %ifname% disconnected
 label-disconnected = no eth
 label-disconnected-foreground = ${colors.my_foreground}
@@ -512,10 +511,10 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <ramp> <label>
-format-underline = ${xrdb:color1}
+;format-underline = ${xrdb:color1}
 ;format-underline = #f50a4d
 format-warn = <ramp> <label-warn>
-format-warn-underline = ${self.format-underline}
+format-warn-underline = ${xrdb:color1}
 
 label = %temperature%
 label-warn = %temperature%
@@ -527,7 +526,7 @@ ramp-1 = 
 ramp-2 = 
 ramp-3 = 
 ramp-4 = 
-ramp-foreground = ${self.format-underline}
+ramp-foreground = ${xrdb:color1} 
 
 [module/wifi]
 type = internal/network
@@ -536,8 +535,8 @@ interval = 3.0
 
 format-connected = <label-connected>
 format-connected-prefix = "  "
-format-connected-prefix-foreground = ${self.format-connected-underline}
-format-connected-underline = #9f78e1
+format-connected-prefix-foreground = #9f78e1
+;format-connected-underline = #9f78e1
 
 label-connected = %essid%
 label-connected-maxlen = 12
@@ -545,8 +544,8 @@ label-disconnected = "No Wifi"
 
 format-disconnected-prefix = "  "
 format-disconnected = <label-disconnected>
-format-disconnected-underline = ${self.format-connected-underline}
-format-disconnected-prefix-foreground = ${self.format-disconnected-underline}
+;format-disconnected-underline = #9f78e1 
+format-disconnected-prefix-foreground = #9f78e1 
 
 
 [module/powermenu]
@@ -604,17 +603,18 @@ interval = 30
 exec = ~/.config/polybar/uptime.sh
 label = %output%
 format = <label>
-format-suffix = "  "
-format-suffix-foreground =  #AC7BE3
-format-underline =  #AC7BE3
+format-prefix = " "
+;format-suffix = "  "
+format-prefix-foreground =  #AC7BE3
+;format-underline =  #AC7BE3
 
 
 
 [module/my-text-label]
 type = custom/text
-content = " %{F#7df059}  %{F-}Drake "
+content = " %{F#7df059} %{F-}Drake "
 content-foreground = ${colors.my_foreground}
-content-underline = #7df059
+;content-underline = #7df059
 
 
 [module/volume1]
@@ -648,14 +648,14 @@ adapter = ADP0
 full-at = 98
 
 format-charging =  <label-charging> <animation-charging>
-format-charging-underline = ${colors.my_color3}
+;format-charging-underline = ${colors.my_color3}
 
 format-discharging = <label-discharging> <ramp-capacity>
-format-discharging-underline = ${self.format-charging-underline}
+;format-discharging-underline = ${colors.my_color3}
 
 format-full-suffix = "   "
-format-full-suffix-foreground = ${self.format-charging-underline}
-format-full-underline = ${self.format-charging-underline}
+format-full-suffix-foreground = ${colors.my_color3}
+;format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
@@ -663,7 +663,7 @@ ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
 
-ramp-capacity-foreground = ${self.format-charging-underline}
+ramp-capacity-foreground = ${colors.my_color3}
 
 animation-charging-0 = 
 animation-charging-1 = 
@@ -671,6 +671,6 @@ animation-charging-2 = 
 animation-charging-3 = 
 animation-charging-4 = 
 
-animation-charging-foreground = ${self.format-charging-underline}
+animation-charging-foreground = ${colors.my_color3}
 animation-charging-framerate = 750
 

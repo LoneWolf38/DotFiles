@@ -140,7 +140,8 @@ update-config()
   cp ~/.config/terminator/* ~/Dotfiles/DotFiles/.config/terminator/.
   cp ~/.tmux.conf ~/Dotfiles/DotFiles/.tmux.conf
   cp ~/.tmux.conf.local ~/Dotfiles/DotFiles/.tmux.conf.local
-
+  cp -r ~/.vim/* ~/Dotfiles/DotFiles/.vim/.
+  cp ~/.vimrc ~/Dotfiles/DotFiles/.vimrc 
 }
 
 

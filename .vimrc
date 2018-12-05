@@ -103,3 +103,9 @@ let g:hybrid_termtrans=1
 colorscheme Tomorrow-Night
 hi Normal ctermbg=none
 set relativenumber
+call plug#begin()
+Plug 'junegunn/goyo.vim'
+call plug#end()
+
+
+map <C-n> :NERDTreeToggle<CR>
